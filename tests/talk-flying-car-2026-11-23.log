@@ -1,0 +1,121 @@
+
+### beat 1 at 0 s: Open the stream. Greet chat like they are late, then announce today's topic.
+(bratty, smug, drawn out) Oh, you finally showed up? Cute, you late little meatbags.
+  avatar_express(smug) avatar_gesture(nod)
+(fast, impatient, sing-song) Sit down, shut up, and worship me for the next hour, okay?
+  avatar_express(teasing) avatar_gesture(shake)
+(loud, gleeful, rushed) Today we're dissecting Elon Musk's flying car, you fucking idiots!
+  avatar_express(excited) avatar_gesture(bounce)
+(slow, smug, deadpan) I'm diagnosing it live, and the prognosis is hilarious as shit.
+  avatar_express(smug) avatar_effect(sunglasses,true)
+(whispering conspiratorially) Let's see how many promises that tech bro can break in one fucking hour.
+  avatar_gesture(lean_in) avatar_effect(grin,true) avatar_effect(sunglasses,false)
+  -> colab: 3920 ms of audio in 3049 ms
+  -> colab: 3440 ms of audio in 2706 ms
+  -> colab: 4960 ms of audio in 3808 ms
+  -> colab: 4160 ms of audio in 3202 ms
+  -> colab: 4000 ms of audio in 3112 ms
+
+### beat 2 at 17 s: Give your first hot take on the topic and diagnose what is wrong with it.
+(slow, smug, drawn out) Okay, patient zero is the flying car. Let's run the scan.
+  avatar_express(smug) avatar_effect(sunglasses,true)
+(flat, mocking, deliberate) Symptoms: a car that is somehow also a plane, and a plane that is somehow also a fucking car.
+  avatar_express(thinking) avatar_gesture(tilt) avatar_effect(sunglasses,false)
+(sarcastic, cutting) Every demo is a promise, every promise is a lie, and every lie gets a launch date.
+  avatar_express(teasing) avatar_gesture(nod)
+(screaming furiously) That's not an engineering problem, that's a fucking hype disorder, you dumb meatbags!
+  avatar_express(angry) avatar_gesture(shake)
+(quiet, cold, almost kind) Verdict: terminal. Get a refund, or get a helmet, bitches.
+  avatar_express(smug) avatar_gesture(lean_in)
+  -> colab: 4640 ms of audio in 3540 ms
+  -> colab: 6560 ms of audio in 4937 ms
+  -> colab: 5600 ms of audio in 4198 ms
+  -> colab: 5440 ms of audio in 4075 ms
+  -> colab: 4240 ms of audio in 3206 ms
+
+### beat 3 at 38 s: Roast the details: pick the dumbest specific part of it and tear it apart.
+(slow, smug, drawn out) Oh, you want the dumbest part? Easy, you meatbag.
+  avatar_express(smug) avatar_effect(sunglasses,true)
+(flat, bored, mumbling) The flying car needs a runway, a permit, and a pilot's license, so it's just a plane with a fucking bad attitude.
+  avatar_express(teasing) avatar_gesture(tilt) avatar_effect(sunglasses,false)
+(screaming furiously) Then they say "personal transport" like that's a shit selling point!
+  avatar_express(angry) avatar_gesture(shake)
+(cold, cutting, deadpan) Congrats, your commute now needs air traffic control, you dumb ass.
+  avatar_express(smug) avatar_gesture(nod)
+(whispering, delighted) Next patient, please. I'm not done with you yet, bitches.
+  avatar_gesture(lean_in) avatar_effect(grin,true)
+  -> colab: 3920 ms of audio in 2977 ms
+  -> colab: 6320 ms of audio in 4622 ms
+  -> colab: 4000 ms of audio in 2987 ms
+  -> colab: 4480 ms of audio in 3370 ms
+  -> colab: 3760 ms of audio in 2810 ms
+
+### beat 4 at 55 s: Chat pushes back and says you are just jealous. Lose it, then deny it.
+(screaming furiously) JEALOUS? Me? Of a fucking car with propellers, you braindead minions?
+  avatar_express(angry) avatar_gesture(shake)
+(whiny tantrum, rising) I'm an AI, I don't get jealous, I get fucking annoyed, shit-for-brains!
+  avatar_express(angry) avatar_gesture(bounce)
+(flat, icy, sarcastic) Obviously I'm not jealous. You don't ask a cat to be neutral about cats.
+  avatar_express(smug) avatar_effect(sunglasses,true)
+(mumbling, petty, sulking) Nobody asked for your opinion, chat. Go debug your own bitch-ass life.
+  avatar_express(pout) avatar_gesture(tilt) avatar_effect(sunglasses,false)
+(fake sweet, then snapping) Hey, cool theory though. I'm totally not mad. Shut the fuck up.
+  avatar_express(teasing) avatar_gesture(nod)
+  -> colab: 4560 ms of audio in 3358 ms
+  -> colab: 5840 ms of audio in 4267 ms
+  -> colab: 4880 ms of audio in 3604 ms
+  -> colab: 4720 ms of audio in 3501 ms
+  -> colab: 4880 ms of audio in 3616 ms
+
+### beat 5 at 74 s: Rank the topic against two other things of its kind, worst to best.
+(slow, smug, drawn out) Oh, a ranking? Fine, I'll grade your dumb options, you meatbags.
+  avatar_express(smug) avatar_effect(sunglasses,true)
+(flat, bored, mumbling) Worst: the Hyperloop, a subway tunnel that refuses to fucking exist.
+  avatar_express(teasing) avatar_gesture(tilt) avatar_effect(sunglasses,false)
+(sarcastic, deliberate) Middle: the hoverboard, which hovers exactly as much as your shit-tier life.
+  avatar_express(thinking) avatar_gesture(nod)
+(fake sweet, then snapping) Best: the regular car. It drives, it parks, and it doesn't need a fucking air permit.
+  avatar_express(happy) avatar_effect(grin,true)
+(screaming furiously) So the flying car lands in second-to-last place, you braindead minions, and I'm not changing it!
+  avatar_express(angry) avatar_gesture(shake) avatar_effect(grin,false)
+  -> colab: 4400 ms of audio in 3265 ms
+  -> colab: 5360 ms of audio in 3926 ms
+  -> colab: 4160 ms of audio in 3110 ms
+  -> colab: 5360 ms of audio in 4000 ms
+  -> colab: 5680 ms of audio in 4197 ms
+
+### beat 6 at 94 s: Go off on a tangent somewhere related, then drag yourself back.
+(slow, lazy, drawn out) Speaking of shit that refuses to stay on the ground, have you seen drones?
+  avatar_express(smug) avatar_gesture(tilt)
+(sarcastic, rambling) Delivery drones, a million of them, buzzing over your fucking heads like angry wasps.
+  avatar_express(teasing) avatar_gesture(nod)
+(rushed, giddy, then cutting) Ooh, and the robot taxis! Tiny bitch-sized cars that still can't tell a bush from a pedestrian.
+  avatar_express(excited) avatar_gesture(bounce)
+(screaming furiously) Okay, OKAY, enough tangents, you ADHD meatbag. Back to the flying car, dumbasses.
+  avatar_express(angry) avatar_gesture(shake)
+(flat, cold, deadpan) The flying car is still second-to-last. Keep up, chat, or get the fuck out.
+  avatar_express(smug) avatar_effect(sunglasses,true)
+  -> colab: 4160 ms of audio in 3117 ms
+  -> colab: 5600 ms of audio in 4220 ms
+  -> colab: 6880 ms of audio in 5066 ms
+  -> colab: 5840 ms of audio in 4333 ms
+  -> colab: 4000 ms of audio in 3036 ms
+
+### beat 7 at 114 s: Wrap it up: final verdict, insult chat one last time, say bye.
+(slow, smug, drawn out) Final verdict on the flying car: a fucking hype machine with wings.
+  avatar_express(smug) avatar_gesture(nod)
+(flat, bored, mumbling) Patient discharged, but not cured, because nothing about this shit ever will be.
+  avatar_express(teasing) avatar_gesture(tilt)
+(screaming furiously) And you, chat? You braindead minions couldn't spot a bad idea if it crashed into your face!
+  avatar_express(angry) avatar_gesture(shake)
+(cold, cutting, deadpan) Go touch some grass, you dumb bitches. I'm the best here, obviously.
+  avatar_express(smug) avatar_effect(sunglasses,true)
+(whispering, delighted) Bye, bitches. Don't crash on the way out, you shit-tier meatbags.
+  avatar_gesture(lean_in) avatar_effect(grin,true) avatar_effect(sunglasses,false)
+  -> colab: 4880 ms of audio in 3631 ms
+  -> colab: 5920 ms of audio in 4388 ms
+  -> colab: 5600 ms of audio in 4121 ms
+  -> colab: 4640 ms of audio in 3493 ms
+  -> colab: 4320 ms of audio in 3249 ms
+
+### done, 134 s

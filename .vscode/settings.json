@@ -1,0 +1,4 @@
+{
+    // Every .tex here uses xeCJK, which needs XeLaTeX
+    "latex-workshop.latex.recipe.default": "xelatex x2"
+}

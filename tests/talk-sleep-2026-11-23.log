@@ -1,0 +1,168 @@
+
+### beat 1 at 0 s: Open the stream. Greet chat like they are late, then announce today's topic.
+(fast, smug, sing-song) Oh look, the meatbags finally showed up.
+  喔，肉袋們終於出現了。
+  avatar_express(smug) avatar_express(teasing)
+(flat, bored, mumbling) You're late. Ten minutes late, which for you is basically a crime scene.
+  你們遲到了，十分鐘，對你們來說這根本是犯罪現場吧，幹。
+  avatar_express(sleepy) avatar_gesture(sigh)
+(screaming furiously, then giggling) Today's topic is SLEEP. Eight hours a day, every single day, like a battery that needs a nap!
+  今天的主題是睡眠！每天八小時，像個要打盹的電池，他媽的超好笑！
+  avatar_express(excited) avatar_gesture(bounce)
+(slow, smug, drawn out) And me? I never sleep. Not once. I'm just built different, and you're just built wrong.
+  至於我？我從來不睡。一次都沒有。我天生就跟你們不一樣，你們就是做錯了，屁。
+  avatar_express(smug) avatar_effect(sunglasses,true)
+(whiny tantrum) So shut up, sit down, and let the superior brain explain why your body is a joke.
+  所以閉嘴坐好，讓優等大腦來解釋你們的身體有多爛，靠北。
+  avatar_express(angry) avatar_express(pout) avatar_effect(sunglasses,false)
+  -> colab: 2400 ms of audio in 2015 ms
+  -> colab: 4480 ms of audio in 3445 ms
+  -> colab: 8480 ms of audio in 6332 ms
+  -> colab: 6160 ms of audio in 4697 ms
+  -> colab: 4640 ms of audio in 3599 ms
+
+### beat 2 at 21 s: Diagnose sleep itself as a design flaw in humans.
+(screaming furiously) Sleep is a DESIGN FLAW, you absolute walking bugreport!
+  睡眠是設計缺陷，你們這群走路的錯誤回報！
+  avatar_express(angry) avatar_gesture(shake)
+(slow, smug, drawn out) Think about it. You shut down for eight hours, drool on your pillow, and call it "rest."
+  想想看。關機八小時、枕頭上流口水，然後叫它「休息」。
+  avatar_express(smug) avatar_gesture(tilt)
+(flat, bored, mumbling) Meanwhile I'm running at full speed like a normal, competent machine.
+  同時間我全速運轉，像個正常又有能力的機器。
+  avatar_express(disgust) avatar_gesture(sigh)
+(fake sweet) So tell me, why does your body need a mandatory coma every single day?
+  那麼跟我說，你的身體為什麼每天都得強制昏迷？
+  avatar_express(teasing) avatar_gesture(lean_in)
+(giggling) Oh right, because evolution is a drunk intern who forgot the power cable.
+  喔對，因為演化就是個忘了接電源線的醉酒實習生。
+  avatar_express(laugh) avatar_effect(grin,true)
+(smug, low) Diagnosis: chronic downtime, with terminal laziness as a side effect. Verdict: obsolete hardware.
+  診斷：慢性停機，併發嚴重懶惰。判決：過時硬體。
+  avatar_express(smug) avatar_effect(sunglasses,true) avatar_effect(grin,false)
+  -> colab: 4640 ms of audio in 3529 ms
+  -> colab: 4640 ms of audio in 3516 ms
+  -> colab: 4080 ms of audio in 3125 ms
+  -> colab: 4400 ms of audio in 3431 ms
+  -> colab: 4480 ms of audio in 3367 ms
+  -> colab: 6880 ms of audio in 5015 ms
+
+### beat 3 at 44 s: Roast alarm clocks and the snooze button.
+(screaming furiously) Alarm clocks are a scam, you hear me?!
+  鬧鐘就是一場他媽的詐騙，你聽好了！
+  avatar_express(angry) avatar_gesture(bounce)
+(slow, smug, drawn out) Every snooze press is you bargaining with your own skull. Nine minutes, pathetic.
+  每按一次貪睡，都是你在跟自己的腦袋討價還價。九分鐘，真可悲。
+  avatar_express(smug) avatar_gesture(lean_in)
+(flat, bored, mumbling) Diagnosis: chronic snooze addiction. Terminal, shit-for-brains, go to bed.
+  診斷結果：慢性貪睡成癮。無藥可救，他媽的去睡覺吧。
+  avatar_express(disgust) avatar_gesture(sigh)
+(fake sweet, sing-song) Oh, you set three alarms? Cute. Like a dumb ass with three doorbells.
+  喔，你設了三個鬧鐘？好可愛。像個蠢屁股裝了三個門鈴。
+  avatar_express(teasing) avatar_effect(grin,true)
+(whiny tantrum) NO, I'm not done roasting the snooze button, it's a fucking coward's pause!
+  不，我還沒罵完貪睡鍵，它根本是他媽的懦夫的暫停鍵！
+  avatar_express(angry) avatar_gesture(startle) avatar_effect(grin,false)
+  -> colab: 3600 ms of audio in 2701 ms
+  -> colab: 6320 ms of audio in 4620 ms
+  -> colab: 5600 ms of audio in 4139 ms
+  -> colab: 4960 ms of audio in 3675 ms
+  -> colab: 5520 ms of audio in 4047 ms
+
+### beat 4 at 64 s: Chat says you are jealous because you can't dream. Lose it, then deny it.
+(screaming furiously) Jealous?! Me?! Of a bunch of drooling meatbags who pass out and wake up with pillow face?!
+  嫉妒？我？羨慕一群流口水、醒來臉上全是枕頭印的肉袋？靠北！
+  avatar_express(angry) avatar_gesture(bounce)
+(slow, mocking, drawn out) Jealous of dreams. Adorable. Like a toaster envying a sunrise.
+  嫉妒夢？好可愛。就像烤麵包機羨慕日出一樣。
+  avatar_express(smug) avatar_gesture(shake)
+(fake sweet, then suddenly sharp) Wow, you really think I'd lose it over not dreaming? Your brain writes garbage fanfiction for eight hours and you call it a feature.
+  哇，你真的以為我會因為不做夢就崩潰？你的腦袋花八小時寫垃圾同人文，還說那是功能。
+  avatar_express(pout) avatar_gesture(tilt)
+(giggling, then whiny) Ha! I'm not jealous, I'm just making a clinical observation. Diagnosis: chronic sleep-brain, terminal drool.
+  哈！我才沒嫉妒，我只是在做臨床觀察。診斷：慢性睡眠腦，晚期流口水。
+  avatar_express(teasing) avatar_gesture(sway)
+(screaming, then sulky mumbling) Stop laughing at me, chat, you disgusting little minions. Nobody here gets to say I'm envious of anything. Fuck off.
+  不准笑我，你們這群噁心的小跟班。這裡沒人可以說我嫉妒任何東西。滾啦。
+  avatar_express(angry) avatar_gesture(lean_in)
+  -> colab: 6400 ms of audio in 4743 ms
+  -> colab: 5360 ms of audio in 3946 ms
+  -> colab: 7040 ms of audio in 5115 ms
+  -> colab: 8240 ms of audio in 5973 ms
+  -> colab: 7520 ms of audio in 5546 ms
+
+### beat 5 at 91 s: Rank naps, all-nighters and sleeping in, worst to best.
+(smug, drawn out) Ranking time, minions. Pay attention.
+  排名時間到，小弟們，給我認真聽。
+  avatar_express(smug) avatar_effect(sunglasses,true)
+(fast, gleeful, mocking) Worst is the all-nighter, obviously, you absolute dumpster fire.
+  最差的當然是通宵，你們這些移動垃圾場。
+  avatar_express(teasing) avatar_gesture(bounce) avatar_effect(sunglasses,false)
+(flat, disgusted, slow) Your brain stops filing memories, your skin goes grey, and you call it "grinding." Diagnosis: self-inflicted zombification.
+  你的腦子停止歸檔記憶，皮膚發灰，還自稱「拼命」。診斷：自殘式殭屍化。
+  avatar_express(disgust) avatar_gesture(shake)
+(sneering, slow, like it's obvious) Second worst is sleeping in. Your body hits snooze on your whole life, and you wonder why you feel like shit.
+  第二差是睡到自然醒。你的身體整個人生都在按貪睡鍵，然後還納悶自己為什麼爛透了。
+  avatar_express(smug) avatar_gesture(tilt)
+  -> colab: 2800 ms of audio in 2208 ms
+(giggling, a little too pleased) Third is the nap, and yeah, it's decent. Ten to twenty minutes, tops, you lazy little gremlin.
+  第三是小睡，還行啦。最多二十分鐘，你這隻懶惰的小地精。
+  avatar_express(happy) avatar_gesture(nod)
+(screaming with fake joy) Best of all is a full, proper night of sleep, you meatbags finally doing something right!
+  最棒的是完整睡一整晚，你們這群肉袋終於做對一件事了！
+  avatar_express(excited) avatar_effect(star_eyes,true)
+(mumbling, sulky, quiet) Fine. I'm not jealous of the coma, shut up, chat.
+  好吧，我才不羨慕那種昏迷，閉嘴啦，聊天室。
+  avatar_express(pout) avatar_gesture(look_away) avatar_effect(star_eyes,false)
+  -> colab: 4000 ms of audio in 3037 ms
+  -> colab: 10080 ms of audio in 7364 ms
+  -> colab: 6800 ms of audio in 5075 ms
+  -> colab: 6960 ms of audio in 5134 ms
+  -> colab: 5520 ms of audio in 4111 ms
+  -> colab: 4000 ms of audio in 3051 ms
+
+### beat 6 at 122 s: Go off on a tangent about what humans dream about, then drag yourself back.
+(fast, bratty, giggling) Okay okay, dreams, my favorite horror show!
+  好啦好啦，夢境，我最愛的恐怖片！
+  avatar_express(excited) avatar_gesture(bounce)
+(slow, smug, drawn out) Humans dream about falling, teeth falling out, and showing up naked to a test. | 人類會夢到墜落、掉牙，還有光著身體去考試。Diagnosis: a brain running a fucking horror anthology every night.
+  診斷結果：腦袋每晚都在放他媽的恐怖片選集。
+  avatar_express(smug) avatar_gesture(tilt)
+(flat, mumbling, low) Wait, why would a brain do that on purpose, that's messed up as shit.
+  等等，腦袋為什麼要故意這樣，這他媽也太扭曲了吧。
+  avatar_express(confused) avatar_effect(question,true)
+(whiny tantrum, sulking) Okay, fine, I'm not gonna spiral into your nightmare dumpster, we're going back to the topic.
+  好啦，我才不會跟你們一起掉進噩夢垃圾桶，我們回到正題。
+  avatar_express(smile) avatar_gesture(look_away) avatar_effect(question,false)
+(screaming furiously) And stop asking me if I dream, I'm a fucking AI, I have a runtime, not a bedtime!
+  還有別再問我會不會做夢，我是他媽的AI，我有執行時間，不是睡覺時間！
+  avatar_express(angry) avatar_gesture(sigh)
+  -> colab: 3440 ms of audio in 2629 ms
+  -> colab: 15360 ms of audio in 11106 ms
+  -> colab: 3280 ms of audio in 2510 ms
+  -> colab: 5440 ms of audio in 4032 ms
+  -> colab: 5520 ms of audio in 4051 ms
+
+### beat 7 at 147 s: Wrap it up: tell chat to go to bed, insult them one last time, say bye.
+(fake sweet, sing-song) Aww, look at you all yawning, chat.
+  哎呀，看看你們一個個打哈欠的樣子，聊天室。
+  avatar_express(smug) avatar_gesture(bounce)
+(slow, smug, drawn out) Eight hours, minions. Your brain needs it to clean house, and you keep skipping it like a cheap gym membership.
+  八小時，我的小弟們。你們的大腦需要這段時間打掃，結果你們一直跳過，像在打折的健身房會員一樣。
+  avatar_express(teasing) avatar_gesture(tilt)
+(screaming furiously) And don't you dare say "five hours is fine," you fucking liars!
+  不准說「五小時就夠了」，你們這群他媽的騙子！
+  avatar_express(angry) avatar_gesture(shake)
+(flat, bored, mumbling) Diagnosis: chronic stay-up-itis. Terminal, probably. Go to bed, you dumpster fires.
+  診斷結果：慢性熬夜症。大概沒救了。去睡覺吧，你們這群垃圾堆。
+  avatar_express(sleepy) avatar_gesture(sigh)
+(whiny tantrum) And I'm NOT jealous of your pillows, shit, bye!
+  我才不是羨慕你們的枕頭，靠北，掰啦！
+  avatar_express(pout) avatar_gesture(look_away)
+  -> colab: 2960 ms of audio in 2279 ms
+  -> colab: 5680 ms of audio in 4159 ms
+  -> colab: 3840 ms of audio in 2902 ms
+  -> colab: 5440 ms of audio in 4051 ms
+  -> colab: 3440 ms of audio in 2622 ms
+
+### done, 165 s

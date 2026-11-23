@@ -1,0 +1,173 @@
+% !TEX program = xelatex
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{xeCJK}
+\setCJKmainfont{NotoSerifCJKtc-Regular.otf}[Path=fonts/, AutoFakeBold=2.5]
+\setCJKmonofont{NotoSerifCJKtc-Regular.otf}[Path=fonts/]
+\setCJKsansfont{NotoSerifCJKtc-Regular.otf}[Path=fonts/, AutoFakeBold=2.5]
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{xltabular}
+\usepackage{needspace}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,fit}
+\usepackage{enumitem}
+\setlist{nosep,leftmargin=1.5em}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries\color{blue!45!black}}{\thesection}{0.6em}{}
+\titlespacing*{\section}{0pt}{1.1ex plus .3ex}{0.6ex}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\titlespacing*{\subsection}{0pt}{0.9ex plus .2ex}{0.4ex}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45ex}
+\linespread{1.15}
+\interlinepenalty=10000
+\renewcommand{\arraystretch}{1.2}
+
+\begin{document}
+
+\begin{center}
+{\Large\bfseries Shiori: Demo Spec}\\[0.4ex]
+{\small Hands-on Introduction to Agentic AI, final project. What the demo shows, and how we build it.}
+\end{center}
+
+\section{Games}
+One stream is one game. There is no talk-only mode. For the 12/09 demo the tier list is the must-have. The other two games are built only if time allows.
+
+\subsection{Tier list: 25 AI models}
+She ranks 25 current AI models from S to F with loud, biased hot takes, and chat argues with her.
+\begin{itemize}
+\item \textbf{On screen:} an S, A, B, C, D, F board on a simple page of ours, laid out like TierMaker: a dark background, pastel tier labels on the left (red S down to green F), square logo tiles in each row, and the 25 model cards waiting in a pool below. She grabs a card and flails it across the tiers while she rants (\texttt{grab}, \texttt{hover}), then \texttt{place} drops it. No browser automation is needed.
+\item \textbf{Flow:} she takes the cards one at a time, rants about each one and drops it in a tier. At the end she reads out the final board.
+\item \textbf{The board is fixed.} Every card's tier comes from the script, stored in her DB. Her grab and hover moves are free, but \texttt{place} always lands in the scripted tier, so every run ends with the same board. Only her words change from run to run. The judges see one take, so this is fine.
+\item \textbf{Chat fights:} chat argues and she doubles down or angrily moves a card. Any move is also in the script, so it looks like chat won. Chat never really changes a rank: our chat simulation is not good enough to drive the board.
+\end{itemize}
+The 25 cards, with versions as of 2026-11-22 (recheck them the week before recording):
+
+\begin{center}\small
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\textbf{Frontier} & \textbf{Frontier} & \textbf{China} & \textbf{Cheap and fast} & \textbf{Makers and wildcards} \\
+\midrule
+Claude Fable 5.2 & Gemini 4 Neon & DeepSeek V4 Pro & Claude Haiku 5.5 & Midjourney V8.2 \\
+Claude Opus 5.5 & Grok 4.7 & Qwen4-Max & Gemini 3.7 Flash & ChatGPT Images 2.6 \\
+GPT-6.2 Astra & Meta Muse Wonder & Kimi K3.1 & DeepSeek V4.1 Flash & Veo 3.1 \\
+GPT-6.2 Sol & Mistral Large 4 & GLM-5.3 & & Seedance 2.5 \\
+Gemini 4 Carbon & & Doubao Seed 2.1 Pro & & Suno v6 \\
+ & & & & Siri (iOS 27) \\
+ & & & & Neuro-sama \\
+ & & & & Shiori herself \\
+\bottomrule
+\end{tabular}
+\end{center}
+The sibling pairs are built-in fights: Astra against Sol, Carbon against Neon, Fable against Opus against Haiku, and the Gemini-trained Siri against Gemini. Neuro-sama and Shiori herself are the comedy cards (she puts herself in S).
+
+\subsection{I'm Not a Robot (if time allows)}
+\texttt{neal.fun/not-a-robot}: a browser game of 48 captcha levels that get stranger and harder. An AI failing to prove it is human is the joke.
+
+\subsection{The Password Game (if time allows)}
+\texttt{neal.fun/password-game}: a password that has to meet more and more absurd rules. Here she does aim to finish: all 35 rules.
+\begin{itemize}
+\item \textbf{Eyes:} she reads the rules and their pass or fail marks from the page text. Screenshots and a vision model are used only for the rules that are images: the captcha, the Street View country and the chess board.
+\item \textbf{Hands:} one general browser tool (an MCP browser such as Playwright). She opens pages, looks, clicks, types, drags and uses the formatting toolbar like a human. No puzzle tools: no chess engine, no calculator, no solvers.
+\item \textbf{Lookups:} when a rule needs outside facts (today's Wordle answer, the moon phase, a YouTube video of the right length), she opens a new tab and finds them herself with the same browser.
+\item \textbf{Chess:} she works out the best move herself, from the board image.
+\item \textbf{Checking her work:} after every edit she rereads which rules fail and repairs the password. The page's pass and fail marks are her validator.
+\item \textbf{Typing is visible:} she types character by character, deletes and fixes on screen, so viewers can follow the password growing.
+\item \textbf{Paul and the fire are her job.} If she is slow or busy with chat, Paul starves or burns and the game resets to rule 1. Her mood decides what comes next: a rage restart, giving up, or a funeral for Paul. A ruined recording is a retake.
+\item \textbf{Chat only reacts.} She solves every rule alone. Hints from chat are backseating, and she mocks them.
+\item \textbf{Length:} this stream runs as long as the game takes (likely 40--60 minutes or more) and is clipped down for the video.
+\item \textbf{First-timer act:} the LLM has probably seen this game in training. She may still play smart, but she reacts to every new rule as a surprise and never mentions a rule before the page shows it. A spoiler check drops any line that names an unrevealed rule (Paul, the fire, chess and so on).
+\end{itemize}
+
+\needspace{12\baselineskip}
+\section{What we will see}
+
+\subsection{Scene 1: the console and plan mode}
+Before going live, I open the Shiori console, a web UI.
+\begin{enumerate}
+\item I choose which game Shiori plays today (Section 1).
+\item Shiori drafts a timeline. Each step is a \textbf{segment with a vibe} and a length, holding a few \textbf{planned bits} she tries to land. For example, a tier list stream: opening rant (3 min), the chatbots (8 min), the image, video and music makers (5 min), the assistants and wildcards (4 min), final board and ending (2 min).
+\item I revise it by talking to her (``make the game part shorter, add a story''). She rewrites the plan and the timeline updates. Repeat until I am happy.
+\item I click \textbf{Go streaming}.
+\end{enumerate}
+
+\subsection{Scene 2: the stream}
+What a viewer sees:
+\begin{itemize}
+\item the Live2D avatar, with face, mouth and gestures moving with what she says
+\item the activity on screen: the browser game or the tier list
+\item she speaks English in a young, childlike voice, with English subtitles. Chat is in English.
+\item the chat: our own overlay that merges read-only Twitch chat from real people (team and classmates) with autonomous bot viewers with personalities (backseater, spoiler, troll) that keep it busy
+\end{itemize}
+\textbf{The game is the backdrop, not the goal.} She really plays (her LLM picks the moves), but winning or finishing a task is never the point. Bad plays are part of the comedy. The one exception is The Password Game, where she does try to finish.
+
+\textbf{The opening and ending are smooth.} She never jumps straight into the game or cuts off at the end. She talks her way in from the opening (``okay okay, let's get this over with'') and talks her way out at the end, like a human streamer. Inside the game, a new segment only changes her bits, not what is on screen.
+
+She follows the plan as a guide. Chat can bait her off topic and she runs with it, then steers back. The segments keep their order. She drifts in what she says, but the tier list board always ends as scripted. She never goes quiet: if chat is dead, she tells one of her stories or opens a topic.
+
+\subsection{Scene 3: the live control room}
+After Go, the console becomes a control room:
+\begin{itemize}
+\item the current segment with a countdown, its bits (landed or not), and the segments still ahead
+\item her inner thoughts (what she plans to say or do next). Only the console shows them, never the stream.
+\item each bot message's role (backseater, spoiler, troll)
+\item her emotion meters, with a short history graph (see below)
+\item controls: skip or extend a segment, and whisper an instruction that only she hears. She chooses what to do with a whisper: obey it, ignore it, or mock it on stream.
+\item emotion steering: nudge an emotion up or down, and a \textbf{chaos dial}
+\end{itemize}
+
+\subsection{Her emotions}
+Shiori has an emotion state of her own. It does not just mirror the game and chat. Things happen to her for no reason, the way a person's mood swings.
+\begin{itemize}
+\item \textbf{State:} a few meters from 0 to 100: happy, angry, bored, scared and unhinged. The highest one is her current mood.
+\item \textbf{What moves it:}
+  \begin{itemize}
+  \item \emph{events}: chat trashing her ranking, a backseater, a good joke from chat
+  \item \emph{time}: boredom builds up the longer a segment runs
+  \item \emph{randomness}: drift, plus sudden spikes with no cause, like a rage fit, a giggle fit or a sudden tweak
+  \item \emph{steering}: my nudges from the console
+  \end{itemize}
+  Every meter slowly falls back to her baseline personality.
+\item \textbf{Chaos dial:} sets how often and how hard the random spikes hit, from calm to fully unhinged.
+\item \textbf{What it changes:} her words, her face and gestures, and her voice (screaming when angry, flat when bored). She cannot leave the game because of it: the activity is fixed until the plan (or my skip) ends the segment. Boredom comes out inside the game instead: she complains, goes on tangents, or plays recklessly just to make something happen. When the game ends, her mood colors the ending (``finally, I hated that'').
+\item \textbf{Where it shows:} the meters are in the console only. Viewers see her mood only through her face, voice and words.
+\end{itemize}
+
+\subsection{Her character}
+The memorable part is the edge. Shiori curses and screams at the game, goes off on unhinged tangents, roasts chat and makes dirty jokes. Most of her humor is not invented on the spot: jokes, memes and bits come from Reddit and other internet sources, collected into her DB, and she pulls ones that fit the moment. The hard line is bigotry, she slurs, she curse, she takes against things or topic but not takes against groups of people (gender, sexuality, race, religion).
+
+\needspace{10\baselineskip}
+\subsection{Must be visible in the footage}
+\begin{itemize}
+\item[$\square$] the tier list: biased hot takes, a fight with chat, and at least one card moved or defended
+\item[$\square$] picking the game, the drafted plan, at least one spoken revision, then Go
+\item[$\square$] a full stream run from opening to ending, following the plan
+\item[$\square$] a talked-through opening into the game, and a talked-through ending out of it
+\item[$\square$] getting baited off topic by chat, then coming back to the plan
+\item[$\square$] reacting to a backseater, a spoiler and a joke differently
+\item[$\square$] a quiet chat filled with a story instead of silence
+\item[$\square$] the control room: a skip or extend, and a whisper she obeys, ignores or mocks
+\item[$\square$] cursing, a tangent, a roast and a dirty joke, all in character
+\item[$\square$] a random mood spike with no cause in the game or chat
+\item[$\square$] a console nudge (or the chaos dial turned up) that visibly changes her mood
+\item[$\square$] boredom showing inside the game: complaining, a tangent, or reckless play
+\end{itemize}
+
+\subsection{Not in the demo}
+\begin{itemize}
+\item \textbf{Winning games:} game progress is not measured or shown as an achievement.
+\item \textbf{Cross-stream memory:} the DB only holds her personality, her made-up stories and the collected jokes. She does not remember past streams or viewers.
+\item \textbf{Talk-only segments:} no Just Chatting mode.
+\item \textbf{Failure recovery:} the video is recorded, so a crash, stall or dead TTS means a retake. No recovery logic.
+\end{itemize}
+
+\subsection{Stretch goal: two AI VTubers}
+A second AI VTuber joins Shiori and they argue over the tier list together. Only if the solo demo is done first.
+
+\end{document}
+
+

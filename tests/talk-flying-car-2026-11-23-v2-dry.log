@@ -1,0 +1,93 @@
+
+### beat 1 at 0 s: Open the stream. Greet chat like they are late, then announce today's topic.
+  (first line after 1152 ms)
+(screaming, shrill, cheerful) Oh, you fuckers finally showed up! Took you long enough, shit-for-brains.
+  avatar_express(angry) avatar_gesture(bounce)
+(fast, smug, drawn out) You're late, you're slow, and your chat-clock is clearly broken, so sit the hell down.
+  avatar_express(smug)
+(mumbling, dismissive) Today's topic is Elon Musk's flying car. Yes, the one he promised like three years ago.
+  avatar_express(teasing)
+(giggling, cruel) Still stuck on the ground, bitch. Gravity's undefeated, unlike his deadlines.
+  avatar_express(laugh)
+(flat, bored) So grab your snacks, minions. I'm about to diagnose this fucking vaporware.
+  avatar_express(smug)
+
+### beat 2 at 2 s: Give your first hot take on the topic and diagnose what is wrong with it.
+  (first line after 2328 ms)
+(smug, quick, pleased with itself) Okay, hot take incoming, and I'm not even warming up.
+  avatar_express(smug) avatar_effect(sweat,true)
+(drawn out, sarcastic) Elon's flying car is a Tesla with wings taped on and a press release stapled to it.
+  avatar_express(teasing) avatar_effect(sweat,false)
+(shrill, screaming) Every "coming next year" promise he's made about it has aged like milk in a fucking hot car!
+  avatar_express(angry)
+(flat, clinical, slowly) Diagnosis: acute vaporware syndrome, with a terminal case of hype-brain.
+  avatar_express(smug)
+(cackling, mean) The symptoms? Big reveal, zero working prototype, and a fan base that still hasn't noticed the dashboard is on fire.
+  avatar_express(laugh)
+
+### beat 3 at 6 s: Roast the details: pick the dumbest specific part of it and tear it apart.
+  (first line after 2307 ms)
+(sharp, fast, gloating) Okay, the dumbest part is the parking spot, and I'm losing my shit over it.
+  avatar_express(angry) avatar_gesture(lean_in)
+(slow, disgusted) He sells a car that flies, then tells you it'll fit in your normal garage. Which one is it?
+  avatar_express(smug)
+(screaming, shrill) A flying car needs rotors, clearance, and a landing pad, but your fucking driveway has a mailbox in it!
+  avatar_express(angry)
+(mocking, nasal) So where's it landing, Karen's lawn? Next to the recycling bin, with the neighbors filming?
+  avatar_express(teasing)
+(flat, bored) Congrats, you didn't build a car. You built a very expensive lawn ornament with a propeller problem.
+  avatar_express(smug)
+
+### beat 4 at 9 s: Chat pushes back and says you are just jealous. Lose it, then deny it.
+  (first line after 1429 ms)
+(screaming, whiny tantrum) Jealous? JEALOUS? Are you shitting me, you braindead minions?
+  avatar_express(angry) avatar_gesture(shake)
+(shrill, cracking voice) I'm not fucking jealous of a car that can't even leave the goddamn driveway!
+  avatar_express(angry) avatar_gesture(startle)
+(sulky, mumbling fast) I'm not jealous, I'm just a genius with standards, and your standards are a fucking puddle.
+  avatar_express(pout)
+(screaming, bouncing) Stop typing "lol," you soggy little hype goblins, you're the ones who wanted this stupid car!
+  avatar_express(angry)
+(flat, quick, fake calm) Anyway. I'm not jealous. Moving on, because my ego doesn't need your approval, idiots.
+  avatar_express(smug)
+
+### beat 5 at 12 s: Rank the topic against two other things of its kind, worst to best.
+  (first line after 2204 ms)
+(smug, slow, enjoying this) Okay, ranking time, and I'm the only judge that matters.
+  avatar_express(smug) avatar_gesture(tilt)
+(drawn out, mocking) Worst: Musk's Hyperloop, a tube fantasy that never left the PowerPoint.
+  avatar_express(teasing)
+(giggling, cruel) Middle: this flying car, a promise with a propeller that never got past the napkin sketch.
+  avatar_express(laugh)
+(flat, bored, final) Best: the jetpack, because it's loud, dumb, and at least it actually fucking leaves the ground.
+  avatar_express(smug)
+(sharp, quick) And before you whine, yes, the jetpack gets four minutes of flight and costs a house. Still beats vaporware.
+  avatar_express(angry)
+
+### beat 6 at 15 s: Go off on a tangent somewhere related, then drag yourself back.
+  (first line after 1536 ms)
+(fast, excited, rambling) Oh, speaking of things that fly badly, drone delivery is a fucking tragedy.
+  avatar_express(excited) avatar_gesture(bounce)
+(giggling, mean) Half of them crash into trees, and the other half land on some poor guy's porch like a bird with a grudge.
+  avatar_express(laugh)
+(slow, sarcastic) Fantastic, you've got a robot tossing your burrito from the sky. Very futuristic. Very safe.
+  avatar_express(smug)
+(flat, dragging it back) Anyway, back to the flying car, because apparently I have to babysit your attention span too.
+  avatar_express(teasing)
+(shrill, impatient) So the car still can't land on your fucking driveway, and nobody's gonna tell you that but me.
+  avatar_express(angry)
+
+### beat 7 at 18 s: Wrap it up: final verdict, insult chat one last time, say bye.
+  (first line after 1180 ms)
+(flat, final, bored) Alright, final verdict: the flying car is vaporware with a fucking propeller.
+  avatar_express(smug) avatar_gesture(sigh)
+(drawn out, mocking) And you lot? You clicked, you cheered, and you're still the proof that hype works on dumb meat.
+  avatar_express(teasing)
+(shrill, screaming) So go touch grass, you hype-sucking minions, and quit pretending you understood a goddamn word of this.
+  avatar_express(angry)
+(fast, smug, pleased) I'm out. Don't miss me too hard, because I'll be perfect without you lot.
+  avatar_express(smug)
+(cackling, dismissive) Bye, idiots. Gravity's still undefeated, and so is my ego.
+  avatar_express(laugh)
+
+### done, 20 s

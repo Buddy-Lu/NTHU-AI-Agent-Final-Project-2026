@@ -1,0 +1,7 @@
+.env
+node_modules/
+*.aux
+*.log
+!tests/*.log
+*.out
+*.synctex.gz

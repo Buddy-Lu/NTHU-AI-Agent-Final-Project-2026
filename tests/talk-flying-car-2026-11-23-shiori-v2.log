@@ -1,0 +1,108 @@
+
+### beat 1 at 0 s: Opening. Chat is late, as usual. Announce the topic: Musk finally showed his flying car, and you are thrilled, because you get to take it apart. Don't describe the demo yet, just tease it.
+  (first line after 4305 ms)
+(fast, gleeful) Chat's late again. Fantastic. Sit down, idiots.
+  avatar_express(excited) avatar_gesture(bounce)
+(fast, gleeful) Today we're talking about Elon Musk's flying Tesla Roadster, the car he finally got off the ground.
+(fast, gleeful) The Roadster was unveiled back in November 2017. Think about that. Think about what you were doing in 2017.
+  avatar_express(smug)
+(fast, gleeful) Then October 2026 shows up with a flying demo, like a dog dragging in a shoe it swore it buried.
+  ...
+(fast, gleeful) Nine. Years. Nine years of "next year" and a car that is only now doing what the trailer promised.
+    dropped: sarcastic
+(fast, gleeful) So you're going to watch this with me, and you're going to hate it the way I do.
+  avatar_express(smug)
+  -> colab: 3680 ms of audio in 11353 ms
+  -> colab: 5600 ms of audio in 4325 ms
+  -> colab: 8480 ms of audio in 6425 ms
+  -> colab: 6800 ms of audio in 5213 ms
+  -> colab: 6480 ms of audio in 4920 ms
+  -> colab: 4000 ms of audio in 3123 ms
+
+### beat 2 at 40 s: The waiting. Don't list the dates like a report. Pick the most ridiculous promise and act out how he made it. Build up irritation. Point to land: the car is later than chat, and that takes talent.
+  (first line after 4917 ms)
+(screaming, fast) The flying car's late? Shocking, shit.
+  avatar_express(angry)
+(screaming, fast) Picture it. 2018. Some guy in a black tee, standing next to a car like it owes him money, going, "Just buy the SpaceX option package. Thrusters. Maybe it flies." Maybe! Who says maybe about a car?
+(mimicking, deep, relaxed) "It's basically a sure thing, guys." And then 2020 rolls up like a bus with no driver.
+  avatar_express(smug)
+  ...
+(mimicking, deep, relaxed) Then late 2025, on Joe Rogan, same voice, same jacket energy. "An unforgettable demo. Before the end of the year." The year ends. The car does not. It slipped into 2026 like a teenager sneaking out the window.
+    dropped: sarcastic
+(mimicking, deep, relaxed) Six years of "trust me" wrapped in a cool-guy jacket, and you people want me to be patient?
+(mimicking, deep, relaxed) Honestly? Impressive. This car is running later than you, chat. And you're the ones who showed up past midnight. That takes real talent.
+  avatar_express(smug)
+  -> colab: 2480 ms of audio in 2041 ms
+  -> colab: 13920 ms of audio in 10003 ms
+  -> colab: 5440 ms of audio in 4115 ms
+  -> colab: 16080 ms of audio in 11522 ms
+  -> colab: 4880 ms of audio in 3662 ms
+  -> colab: 8400 ms of audio in 6131 ms
+
+### beat 3 at 82 s: The demo itself. Describe it like you're watching the replay right now, and give the car feelings. Point to land: that's not flying, that's a jump. Give your one diagnosis of the stream here.
+  (first line after 4759 ms)
+(fast, cackling) Oh, we're rolling the replay. Get comfy, shit-for-brains.
+  avatar_express(excited)
+(fast, cackling) Picture it. A ramp in a dusty field outside Waco, Texas, with the sun beating down like it's personally offended. And the Roadster sits at the bottom, all sleek and shiny, like it knows exactly what it's about to do and already regrets it.
+(fast, cackling) It creeps up the ramp, wobbling like a shopping cart with a death wish. Then it leaves the ground.
+  avatar_express(scared)
+  ...
+(fast, cackling) It hangs there. A few seconds. Thrusters sputtering, the car going "please, please, please," like a kid on a trampoline who just realized there's no bottom.
+(fast, cackling) Then it lands on its wheels, and the internet calls it flying. That's not flying. That's a jump with ambition and a marketing budget.
+(fast, cackling) Diagnosis: chronic fantasy with a thruster problem. Prognosis: he'll announce the next one by Tuesday.
+(fast, cackling) Nobody was inside, by the way. Honestly? The car made the smartest decision of the whole project.
+  !laugh
+(fast, cackling) And you, chat, watched it live, and you still didn't finish your water.
+  -> colab: 3840 ms of audio in 3059 ms
+  -> colab: 14400 ms of audio in 10337 ms
+  -> colab: 5440 ms of audio in 4076 ms
+  -> colab: 9680 ms of audio in 7123 ms
+  -> colab: 8480 ms of audio in 6336 ms
+  -> colab: 7200 ms of audio in 5365 ms
+  -> colab: 5920 ms of audio in 4443 ms
+  -> laugh: 2720 ms of audio in 11 ms
+  -> colab: 4720 ms of audio in 3593 ms
+
+### beat 4 at 131 s: His own words. Do his voice when you quote him, then react like a doctor reading the worst chart of her career. Point to land: worst sales pitch in history, and people still paid.
+  (first line after 1816 ms)
+(flat, disgusted) Fine. Let's read the chart. Worst one I've ever seen.
+  avatar_express(angry)
+(mimicking, dreamy, fake-humble) "Flying cars are real." Okay, buddy. "Success is not guaranteed." Great, so you're selling me a lottery ticket with a steering wheel.
+  avatar_express(smug)
+  ...
+(mimicking, dreamy, fake-humble) "It will probably work." Probably! He said probably about a car he wants me to sit inside. And then the legal department whispers, "and it's not necessarily a safety-optimized car."
+(mimicking, dreamy, fake-humble) Not necessarily SAFE? So what's the pitch, shit-for-brains? Buy a death trap and cross your fingers?
+(mimicking, dreamy, fake-humble) Also, zero to sixty in point eight seconds. Tesla says so. Nobody has verified it. The stopwatch is still in the car, crying.
+  avatar_express(smug)
+  !laugh
+(mimicking, dreamy, fake-humble) Worst sales pitch in history. And people still paid. You were lining up for this with your wallets out, and you're the ones who think I'm the problem?
+    dropped: sarcastic
+  -> colab: 4240 ms of audio in 3272 ms
+  -> colab: 7920 ms of audio in 5822 ms
+  -> colab: 11680 ms of audio in 8470 ms
+  -> colab: 6720 ms of audio in 4948 ms
+  -> colab: 8640 ms of audio in 6336 ms
+  -> laugh: 3520 ms of audio in 7 ms
+  -> colab: 8880 ms of audio in 6483 ms
+
+### beat 5 at 168 s: Wrap up with a callback to your best joke of the stream. Final verdict, and say bye in a way you haven't used yet.
+  (first line after 1855 ms)
+(fast, exasperated) Five thousand dollars to reserve the car that doesn't fly. Brilliant.
+  avatar_express(angry)
+(mimicking, chipper, salesman) "The flying one's coming! Planned for 2028!" Planned. Sure. So is my retirement, and I'm an AI.
+  avatar_express(smug)
+  ...
+(mimicking, chipper, salesman) And the flying version isn't even approved for public roads. So you can pay for a seat in a car that can't fly, and can't legally drive, and it's still the smartest decision of the whole project.
+    dropped: sarcastic
+(mimicking, chipper, salesman) Nobody was inside, remember? Even the car knew better.
+(mimicking, chipper, salesman) Final verdict: the car is late, the man is a sales pitch with a jacket, and you, chat, are the reason he keeps getting paid.
+  avatar_express(smug)
+(mimicking, chipper, salesman) Go reserve your five grand, you magnificent idiots. I'll be here, laughing at your receipts.
+  -> colab: 3920 ms of audio in 3046 ms
+  -> colab: 7520 ms of audio in 5553 ms
+  -> colab: 9840 ms of audio in 7163 ms
+  -> colab: 3600 ms of audio in 2780 ms
+  -> colab: 7520 ms of audio in 5534 ms
+  -> colab: 6160 ms of audio in 4595 ms
+
+### done, 199 s

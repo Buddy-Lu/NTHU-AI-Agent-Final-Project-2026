@@ -1,0 +1,102 @@
+
+### beat 1 at 0 s: Opening. Chat is late, as usual. Announce the topic: Musk finally showed his flying car, and you are thrilled, because you get to take it apart. Don't describe the demo yet, just tease it.
+  (first line after 3932 ms)
+(fast, gleeful, high-pitched) Oh, we're live? Finally. Chat's late, shocker.
+  avatar_express(excited) avatar_gesture(bounce)
+(fast, gleeful, high-pitched) Okay, minions, listen up. Elon Musk finally flew his Tesla Roadster.
+  avatar_express(smug)
+(fast, gleeful, high-pitched) Flew it. The car he unveiled in twenty seventeen, back when he still had hair and a plan.
+(fast, gleeful, high-pitched) Nine years. Nine. Years. That's how long that thing sat in a garage, collecting dust and excuses.
+  ...
+(fast, gleeful, high-pitched) I'm going to take that demo apart, bolt by bolt, and enjoy every second.
+  avatar_express(smug)
+(fast, gleeful, high-pitched) So grab your snacks, keep your brain cells in order, and try to keep up, you slow little meatbags.
+  -> colab: 3680 ms of audio in 2883 ms
+  -> colab: 4960 ms of audio in 3763 ms
+  -> colab: 5520 ms of audio in 4141 ms
+  -> colab: 7280 ms of audio in 5464 ms
+  -> colab: 4640 ms of audio in 3585 ms
+  -> colab: 5520 ms of audio in 4223 ms
+
+### beat 2 at 28 s: The waiting. Don't list the dates like a report. Pick the most ridiculous promise and act out how he made it. Build up irritation. Point to land: the car is later than chat, and that takes talent.
+  (first line after 1701 ms)
+(mocking, sharp, fast) Oh, I've got one. The SpaceX option package.
+  avatar_express(angry) avatar_gesture(lean_in)
+(deep, fake macho voice) "Put thrusters on it, and it might fly, guys." Sure, buddy. Sure. And I'm the Queen of England.
+  avatar_express(teasing)
+(deep, fake macho voice) Thrusters! On a sports car! Like a shit-kicking bathtub duct-taped to a rocket, begging the sky for permission.
+  ...
+(deep, fake macho voice) Then the Rogan thing. "Unforgettable." He said unforgettable, like it was a dinner reservation for the apocalypse.
+(deep, fake macho voice) And it slipped. Slipped into 2026, like a toddler sneaking out of bed to steal cookies.
+(deep, fake macho voice) So the car is later than you lot. You're late, the car is late, and somehow that's still an achievement, and I hate that it takes real talent.
+  -> colab: 3280 ms of audio in 2618 ms
+  -> colab: 6400 ms of audio in 4801 ms
+  -> colab: 6720 ms of audio in 4998 ms
+  -> colab: 7520 ms of audio in 5593 ms
+  -> colab: 5440 ms of audio in 4060 ms
+  -> colab: 2000 ms of audio in 1624 ms
+  -> colab: 6320 ms of audio in 4698 ms
+
+### beat 3 at 58 s: The demo itself. Describe it like you're watching the replay right now, and give the car feelings. Point to land: that's not flying, that's a jump. Give your one diagnosis of the stream here.
+  (first line after 1684 ms)
+(breathless, slow, almost awed) Okay, the replay. The car rolls up a ramp like it's walking to its own execution.
+  avatar_express(surprised) avatar_gesture(shiver)
+(quiet, nervous) Then it launches. And it hangs there, a few seconds, on thrusters, wobbling like a drunk uncle at a wedding.
+  avatar_express(scared)
+(quiet, nervous) Look at its little face. It regrets everything. Every choice that led it to this ramp.
+  ...
+(quiet, nervous) And it lands on its wheels! Wheels! That's not flying, you crusty trash fire. That's a jump with a tantrum!
+(quiet, nervous) My diagnosis? Acute Roadster-itis, terminal, caused by a man who says "unforgettable" the way a hostage says "I'm fine."
+(quiet, nervous) Nobody was inside, by the way. Smartest thing that car has ever done.
+(quiet, nervous) Hah, the car's the only one with a brain cell in the room!
+  !laugh
+  -> colab: 5440 ms of audio in 4052 ms
+  -> colab: 6880 ms of audio in 5039 ms
+  -> colab: 5600 ms of audio in 4140 ms
+  -> colab: 7040 ms of audio in 5212 ms
+  -> colab: 8640 ms of audio in 6288 ms
+  -> colab: 4800 ms of audio in 3597 ms
+  -> colab: 3200 ms of audio in 2493 ms
+  /say 400: gesture must be one of nod, shake, tilt, look_away, bounce, startle, shiver, lean_in, sigh, sway
+
+### beat 4 at 91 s: His own words. Do his voice when you quote him, then react like a doctor reading the worst chart of her career. Point to land: worst sales pitch in history, and people still paid.
+  (first line after 1300 ms)
+(fake deep, slow, self-satisfied) Flying cars are real. Success is not guaranteed. It will probably work.
+  avatar_express(smug) avatar_gesture(tilt)
+(flat, horrified) Probably work. Not "will work." Probably. That's the sentence you say right before a parachute test with your own cousin inside.
+  avatar_express(disgust)
+(flat, horrified) And "not necessarily a safety-optimized car"? Sir, that's not a disclaimer, that's a confession, and it's written in the passive voice like a crime report.
+  ...
+(flat, horrified) Then zero to sixty in point eight seconds. Verified by nobody. Claimed by the guy holding the stopwatch.
+(flat, horrified) Worst sales pitch in history. And people still paid for the reservation. Unbelievable.
+(flat, horrified) He sold a car that might explode with the word "probably" and you lot still clapped!
+  !laugh
+  -> colab: 4720 ms of audio in 3557 ms
+  -> colab: 8240 ms of audio in 6039 ms
+  -> colab: 9440 ms of audio in 6893 ms
+  -> colab: 6720 ms of audio in 4981 ms
+  -> colab: 5600 ms of audio in 4151 ms
+  -> colab: 4640 ms of audio in 3509 ms
+  /say 400: gesture must be one of nod, shake, tilt, look_away, bounce, startle, shiver, lean_in, sigh, sway
+
+### beat 5 at 121 s: Wrap up with a callback to your best joke of the stream. Final verdict, and say bye in a way you haven't used yet.
+  (first line after 2102 ms)
+(flat, exhausted) Remember "it will probably work"? Still my favorite. Still the parachute test with your cousin inside.
+  avatar_express(angry) avatar_gesture(sigh)
+(disgusted, slow) And the five grand reservation? For the car that doesn't fly. You paid to hold a spot for the version that just sits there being a shit-colored Roadster.
+  avatar_express(disgust)
+(disgusted, slow) The flying one isn't even allowed on public roads. Production is "planned" for 2028. Planned. Like a wedding nobody's sure the groom will show up to.
+  ...
+(disgusted, slow) So my verdict is simple. The car is a jump, the promise is a prayer, and your wallet is the only thing that actually flew today.
+(disgusted, slow) Go on, get out of my stream. Shoo. Take your five grand and your delusions with you.
+  -> colab: 6400 ms of audio in 4769 ms
+  -> colab: 4080 ms of audio in 3155 ms
+  -> colab: 4240 ms of audio in 3218 ms
+  -> colab: 6880 ms of audio in 5071 ms
+  -> colab: 2960 ms of audio in 2313 ms
+  -> colab: 1520 ms of audio in 1305 ms
+  -> colab: 6160 ms of audio in 4538 ms
+  -> colab: 5440 ms of audio in 4053 ms
+
+### done, 152 s
+recorded 03:24.4, 0 stall(s) -> tests/recordings/flying-car-2026-11-231317.wav + .txt

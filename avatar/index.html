@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>Shiori Avatar</title>
+<style>
+  body { margin: 0; background: #1e1e24; color: #eee; font: 14px sans-serif; display: flex; gap: 16px; padding: 16px; }
+  #stage { position: relative; width: 720px; height: 720px; background: #00ff00; overflow: hidden; flex: none; }
+  #credit { position: absolute; right: 8px; bottom: 6px; font-size: 12px; color: #fff; text-shadow: 0 0 3px #000; }
+  #sub { position: absolute; left: 24px; right: 24px; bottom: 40px; z-index: 1; text-align: center; font: bold 30px sans-serif; color: #fff;
+         -webkit-text-stroke: 6px #000; paint-order: stroke fill; }
+  #panel { display: flex; flex-direction: column; gap: 4px; min-width: 200px; max-width: 520px; }
+  #panel h4 { margin: 8px 0 2px; font-size: 13px; color: #aab; }
+  #panel .row { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+  #panel small { color: #889; min-width: 60px; }
+  button { padding: 4px 8px; cursor: pointer; }
+  button.on { background: #3a5ba0; color: #fff; }
+  label { display: flex; gap: 6px; align-items: center; }
+</style>
+<script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.10/dist/browser/pixi.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display@0.4.0/dist/cubism4.min.js"></script>
+</head>
+<body>
+<div id="stage"><div id="sub"></div><div id="credit">Live2D model: Alexia by Kyoki Studio (@IamKyoki)</div></div>
+<div id="panel"></div>
+<script type="module">
+import { EMOTIONS, EMOTION_GROUPS, EFFECTS, EFFECT_ON, GESTURES, OUTFITS, POSES, LOOK, validate } from './catalog.mjs';
+
+const MODEL = 'models/Alexia/Alexia/Alexia.model3.json';
+const SIZE = 720, BODY_HEIGHT = 1500;          // half-body framing: legs fall below the stage
+const EYE_OPEN = ['ParamEyeLOpen', 'ParamEyeROpen'];
+const SMOOTH_S = 0.08;                          // emotion/look transition time constant
+
+const state = {
+  emotion: 'neutral', intensity: 0, emotionTimer: 0,
+  effects: new Set(), look: { x: 0, y: 0 },
+  outfit: 'hoodie', pose: 'default',
+  gestures: [], mouth: 0,
+};
+
+// ---- tools: each one only edits state; the frame loop turns state into parameters ----
+const tools = {
+  avatar_express({ emotion, intensity = 0.8, duration_ms }) {
+    clearTimeout(state.emotionTimer);
+    Object.assign(state, { emotion, intensity });
+    if (duration_ms) state.emotionTimer = setTimeout(() => Object.assign(state, { emotion: 'neutral', intensity: 0 }), duration_ms);
+  },
+  avatar_effect({ effect, on }) { on ? state.effects.add(effect) : state.effects.delete(effect); },
+  avatar_gesture({ gesture, intensity = 1 }) { state.gestures.push({ gesture, intensity, start: performance.now() }); },
+  avatar_look({ x, y }) { state.look = { x, y }; },
+  avatar_outfit({ outfit, pose }) { if (outfit) state.outfit = outfit; if (pose) state.pose = pose; },
+  avatar_reset() {
+    clearTimeout(state.emotionTimer);
+    Object.assign(state, { emotion: 'neutral', intensity: 0, look: { x: 0, y: 0 }, gestures: [] });
+    state.effects.clear();
+  },
+  avatar_mouth({ open }) { state.mouth = open; },
+};
+
+function run(tool, args = {}) {
+  const err = validate(tool, args);
+  if (err) { console.warn('avatar:', err); return err; }
+  tools[tool](args);
+  if (tool !== 'avatar_look' && tool !== 'avatar_mouth') renderPanel();   // don't rebuild a slider mid-drag
+  return null;
+}
+window.avatar = { run, state };
+
+// ---- model ----
+const app = new PIXI.Application({ width: SIZE, height: SIZE, backgroundAlpha: 0, antialias: true });
+document.getElementById('stage').prepend(app.view);
+const model = await PIXI.live2d.Live2DModel.from(MODEL, { autoInteract: false });
+app.stage.addChild(model);
+const baseScale = BODY_HEIGHT / model.height;
+const core = model.internalModel.coreModel;
+const def = id => core.getParameterDefaultValue(core.getParameterIndex(id));
+
+// Every param any recipe can touch, so leaving an emotion eases back to default.
+const ids = new Set([
+  ...Object.values(EMOTIONS).flatMap(e => Object.keys(e.params)),
+  ...Object.values(EFFECTS).map(e => e.param),
+  ...Object.values(OUTFITS).flatMap(o => Object.keys(o.params)),
+  ...Object.values(POSES).flatMap(p => Object.keys(p.params)),
+  ...Object.keys(LOOK), 'ParamMouthOpenY',
+].filter(id => core.getParameterIndex(id) >= 0));
+
+function target() {
+  const t = {};
+  for (const id of ids) t[id] = def(id);
+  for (const [id, v] of Object.entries(EMOTIONS[state.emotion].params)) t[id] += (v - t[id]) * state.intensity;
+  for (const e of state.effects) t[EFFECTS[e].param] = Math.max(t[EFFECTS[e].param], EFFECT_ON);
+  Object.assign(t, OUTFITS[state.outfit].params, POSES[state.pose].params);
+  for (const [id, k] of Object.entries(LOOK)) t[id] += k * (id.endsWith('X') ? state.look.x : state.look.y);
+  return t;
+}
+
+let cur = target(), last = performance.now(), eyeFactor = {};
+model.internalModel.on('afterMotionUpdate', () => {
+  const now = performance.now(), dt = (now - last) / 1000; last = now;
+  const t = target(), a = 1 - Math.exp(-dt / SMOOTH_S);
+  for (const id of ids) cur[id] += (t[id] - cur[id]) * a;
+
+  // gestures add on top, then expire
+  const off = { y: 0, s: 0 };
+  state.gestures = state.gestures.filter(g => {
+    const p = (now - g.start) / GESTURES[g.gesture].ms;
+    if (p >= 1) return false;
+    for (const [k, v] of Object.entries(GESTURES[g.gesture].f(p))) off[k] = (off[k] ?? 0) + v * g.intensity;
+    return true;
+  });
+
+  const mouthNow = updateSpeechMouth();
+  for (const id of ids) {
+    let v = cur[id] + (off[id] ?? 0);
+    if (id === 'ParamMouthOpenY') v = Math.max(v, state.mouth, mouthNow);
+    if (EYE_OPEN.includes(id)) { eyeFactor[id] = v / def(id); continue; }   // applied after eye blink
+    core.setParameterValueById(id, v);
+  }
+  for (const id of Object.keys(off)) if (!ids.has(id) && id !== 'y' && id !== 's') core.setParameterValueById(id, off[id]);
+
+  model.scale.set(baseScale * (1 + off.s));
+  model.x = (SIZE - model.width) / 2;
+  model.y = off.y;
+});
+// Eye blink writes eye-open after afterMotionUpdate; scale its result so blinking still works under any emotion.
+model.internalModel.on('beforeModelUpdate', () => {
+  for (const id of EYE_OPEN) core.setParameterValueById(id, core.getParameterValueById(id) * (eyeFactor[id] ?? 1));
+});
+
+// ---- speech: /say clips play in order; their cmds run when the clip starts; mouth follows the audio level ----
+const ctx = new AudioContext();
+const analyser = Object.assign(ctx.createAnalyser(), { fftSize: 1024 });
+analyser.connect(ctx.destination);
+const level = new Float32Array(analyser.fftSize);
+const sub = document.getElementById('sub');
+let chain = Promise.resolve(), gen = 0, playing = null, subTimer = 0;
+addEventListener('pointerdown', () => ctx.resume());   // normal browsers need a click once; OBS does not
+
+function say({ id, text, cmds = [], flush, pause_ms = 0 }) {
+  if (flush) { gen++; playing?.stop(); chain = Promise.resolve(); }
+  const g = gen;
+  const audio = id ? fetch(`/audio/${id}`).then(r => r.arrayBuffer()).then(b => ctx.decodeAudioData(b)) : null;   // fetch now, play in turn
+  chain = chain.then(async () => {
+    const buf = await audio?.catch(e => console.warn('avatar: audio', e));
+    if (pause_ms) await new Promise(r => setTimeout(r, pause_ms));   // a beat of silence before this clip
+    if (g !== gen) return;
+    for (const c of cmds) run(c.tool, c.args);
+    if (text) { clearTimeout(subTimer); sub.textContent = text; }
+    if (buf) await new Promise(done => {
+      playing = Object.assign(ctx.createBufferSource(), { buffer: buf, onended: done });
+      playing.connect(analyser); playing.start();
+    });
+    playing = null;
+    subTimer = setTimeout(() => { sub.textContent = ''; }, 1500);
+  });
+}
+let speechMouth = 0;
+function updateSpeechMouth() {
+  let rms = 0;
+  if (playing) { analyser.getFloatTimeDomainData(level); for (const v of level) rms += v * v; rms = Math.sqrt(rms / level.length); }
+  const open = Math.min(1, Math.max(0, (rms - 0.015) * 9));
+  speechMouth += (open - speechMouth) * (open > speechMouth ? 0.6 : 0.3);   // fast open, slower close
+  return speechMouth;
+}
+
+// ---- live commands from serve.mjs (/cmd and /say -> SSE) ----
+new EventSource('/events').onmessage = e => {
+  const msg = JSON.parse(e.data);
+  if (msg.say) say(msg.say); else run(msg.tool, msg.args);
+};
+
+// ---- manual test panel, generated from the catalog ----
+const panel = document.getElementById('panel');
+const intensityInput = Object.assign(document.createElement('input'), { type: 'range', min: 0, max: 1, step: 0.05, value: 0.8 });
+const btn = (label, on, onclick) => { const b = document.createElement('button'); b.textContent = label; b.className = on ? 'on' : ''; b.onclick = onclick; return b; };
+const row = (...kids) => { const d = document.createElement('div'); d.className = 'row'; d.append(...kids); return d; };
+const h = text => Object.assign(document.createElement('h4'), { textContent: text });
+const slider = (label, value, min, oninput) => {
+  const i = Object.assign(document.createElement('input'), { type: 'range', min, max: 1, step: 0.05, value });
+  i.oninput = () => oninput(+i.value);
+  const l = document.createElement('label'); l.append(label, i); return l;
+};
+
+const sayInput = Object.assign(document.createElement('input'), { type: 'text', placeholder: 'line for Shiori to say', size: 40 });
+const sayNow = () => {
+  const text = sayInput.value.trim(); if (!text) return;
+  fetch('/say', { method: 'POST', body: JSON.stringify({ text }) }).then(r => r.json()).then(r => console.log('say', r));
+  sayInput.value = '';
+};
+sayInput.onkeydown = e => { if (e.key === 'Enter') sayNow(); };
+
+function renderPanel() {
+  panel.replaceChildren(h('say'), row(sayInput, btn('Say', false, sayNow)), h('avatar_express'));
+  for (const [g, gl] of Object.entries(EMOTION_GROUPS)) {
+    const items = Object.entries(EMOTIONS).filter(([, e]) => e.group === g);
+    panel.append(row(Object.assign(document.createElement('small'), { textContent: gl }),
+      ...items.map(([k, e]) => btn(e.label, state.emotion === k, () => run('avatar_express', { emotion: k, intensity: +intensityInput.value })))));
+  }
+  const il = document.createElement('label'); il.append('intensity', intensityInput); panel.append(il);
+  panel.append(h('avatar_effect'), row(...Object.entries(EFFECTS).map(([k, e]) =>
+    btn(e.label, state.effects.has(k), () => run('avatar_effect', { effect: k, on: !state.effects.has(k) })))));
+  panel.append(h('avatar_gesture'), row(...Object.entries(GESTURES).map(([k, g]) => btn(g.label, false, () => run('avatar_gesture', { gesture: k })))));
+  panel.append(h('avatar_look'),
+    slider('x', state.look.x, -1, x => run('avatar_look', { x, y: state.look.y })),
+    slider('y', state.look.y, -1, y => run('avatar_look', { x: state.look.x, y })));
+  panel.append(h('avatar_outfit'),
+    row(...Object.entries(OUTFITS).map(([k, o]) => btn(o.label, state.outfit === k, () => run('avatar_outfit', { outfit: k })))),
+    row(...Object.entries(POSES).map(([k, p]) => btn(p.label, state.pose === k, () => run('avatar_outfit', { pose: k })))));
+  panel.append(h('avatar_mouth'), slider('open', state.mouth, 0, open => run('avatar_mouth', { open })));
+  panel.append(h('avatar_reset'), row(btn('重設', false, () => run('avatar_reset'))));
+}
+renderPanel();
+window.model = model;
+</script>
+</body>
+</html>

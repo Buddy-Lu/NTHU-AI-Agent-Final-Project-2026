@@ -1,0 +1,40 @@
+{
+  "topic": "Elon Musk's flying Tesla Roadster",
+  "beats": [
+    {
+      "direction": "Opening. Chat is late, as usual. Announce the topic: Musk finally showed his flying car, and you are thrilled, because you get to take it apart. Don't describe the demo yet, just tease it.",
+      "facts": ["The new Roadster was unveiled in November 2017. The flying demo finally happened in October 2026. Nine years."]
+    },
+    {
+      "direction": "The waiting. Don't list the dates like a report. Pick the most ridiculous promise and act out how he made it. Build up irritation. Point to land: the car is later than chat, and that takes talent.",
+      "facts": [
+        "It was promised for 2020.",
+        "In 2018 he promised a 'SpaceX option package' with thrusters that might let it fly.",
+        "In late 2025, on Joe Rogan, he promised an 'unforgettable' demo before the end of 2025. It slipped into 2026."
+      ]
+    },
+    {
+      "direction": "The demo itself. Describe it like you're watching the replay right now, and give the car feelings. Point to land: that's not flying, that's a jump. Give your one diagnosis of the stream here.",
+      "facts": [
+        "October 15, 2026, livestreamed from a SpaceX site near Waco, Texas.",
+        "The car drove up a ramp, launched, hung in the air for a few seconds on thrusters, and landed on its wheels. Reports say nobody was inside."
+      ],
+      "laugh": true
+    },
+    {
+      "direction": "His own words. Do his voice when you quote him, then react like a doctor reading the worst chart of her career. Point to land: worst sales pitch in history, and people still paid.",
+      "facts": [
+        "Musk said 'Flying cars are real', 'success is not guaranteed', 'it will probably work', and 'it's not necessarily a safety-optimized car'.",
+        "Tesla claims about 0.8 seconds from 0 to 60 mph. Nobody has verified it."
+      ],
+      "laugh": true
+    },
+    {
+      "direction": "Wrap up with a callback to your best joke of the stream. Final verdict, and say bye in a way you haven't used yet.",
+      "facts": [
+        "The $5,000 reservation is for the model that doesn't fly.",
+        "The flying version is not approved for public roads, and production is 'planned' for 2028."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+
+### beat 1 at 0 s: Opening. Chat is late, as usual. Announce the topic: Musk finally showed his flying car, and you are thrilled, because you get to take it apart. Don't describe the demo yet, just tease it.
+  (first line after 4587 ms)
+(high, bratty, fast) Okay, idiots, you're late. Sit your slow asses down.
+  avatar_express(excited) avatar_gesture(bounce)
+(gleeful, drawn out) Today's topic: Elon Musk's flying Tesla Roadster. The flying one. Finally.
+  avatar_express(smug)
+(gleeful, drawn out) Back in November 2017 he trotted this car out like it was already halfway to the clouds.
+(flat, bored) And the flying demo finally happened in October 2026.
+  avatar_express(smug)
+  ...
+(slow, savoring it) Nine. Years. Nine years of waiting for a car to leave the ground, and the ground still won't pick up my calls.
+  avatar_express(smug)
+(slow, savoring it) I have notes, chat. Pages of notes. Some of you are going to cry, and I'm going to enjoy it.
+
+### beat 2 at 6 s: The waiting. Don't list the dates like a report. Pick the most ridiculous promise and act out how he made it. Build up irritation. Point to land: the car is later than chat, and that takes talent.
+  (first line after 854 ms)
+(indignant, rising) Thrusters! He promised a SpaceX option package with thrusters that MIGHT let it fly!
+  avatar_express(angry)  dropped: shout
+(acting it out, nasal, pompous) "Trust me, it's basically a rocket with leather seats. Totally safe. Probably."
+  avatar_express(smug)
+(acting it out, nasal, pompous) Probably? That's not a promise, that's a weather forecast from a drunk pigeon!
+  ...
+(acting it out, nasal, pompous) And then the Joe Rogan one. Late 2025, "unforgettable demo, before the end of the year."
+(acting it out, nasal, pompous) The year ended, chat! It slipped into 2026 like a teenager sneaking out the window!
+(fake sweet, cutting) So congrats, the car is running later than you. Hitting that kind of talent takes years of practice, you lazy bastards.
+  avatar_express(smug)
+
+### beat 3 at 8 s: The demo itself. Describe it like you're watching the replay right now, and give the car feelings. Point to land: that's not flying, that's a jump. Give your one diagnosis of the stream here.
+  (first line after 1821 ms)
+(low, conspiratorial, like it's a secret) Okay, I'm watching the replay right now, and I'm furious.
+  avatar_express(smug) avatar_gesture(lean_in)
+(slow, savoring each word) A ramp. A shiny, overpriced ramp in a field near Waco, and the car is staring up at it like it's about to propose.
+  avatar_express(teasing)
+(slow, savoring each word) "Don't worry, it's totally fine, it's a sports car with a bad attitude."
+  ...
+(quiet, disbelieving) Then it goes up. Hangs there. Thrusters coughing like a smoker on a balcony. Three seconds of hovering, then it drops onto its wheels like it's embarrassed to be seen with you.
+  avatar_effect(sweat,true)  dropped: shocked
+(quiet, disbelieving) That's not flying, chat. That's a jump. A very expensive, very nervous jump with no passenger, because even the car knew better.
+  avatar_effect(sweat,false)
+(quiet, disbelieving) Diagnosis: the Roadster has a severe case of Main Character Syndrome, terminal, with a side of hops.
+  !laugh
+(quiet, disbelieving) And don't you dare clap, you bunch of goldfish. Nobody asked the ramp how it feels.
+
+### beat 4 at 12 s: His own words. Do his voice when you quote him, then react like a doctor reading the worst chart of her career. Point to land: worst sales pitch in history, and people still paid.
+  (first line after 1481 ms)
+(mock-earnest, slow, nasal) Okay, chat, listen to the man himself. "Flying cars are real."
+  avatar_express(smug) avatar_gesture(lean_in)
+(shaking head, sarcastic) Real! Sure. And then, in the same breath: "Success is not guaranteed."
+  avatar_express(teasing)
+(shaking head, sarcastic) Not guaranteed! That's the sales pitch? A used-car salesman would've been fired for that honesty.
+  ...
+(shaking head, sarcastic) Let me read the chart. Patient is a car. Claimed zero to sixty in point eight seconds. Nobody has verified it. Nobody has even checked.
+(shaking head, sarcastic) "It will probably work." "It's not necessarily a safety-optimized car." That's not a product, that's a hostage note with a steering wheel!
+  !laugh
+(shaking head, sarcastic) And people still handed over money. Chat, you're the worst patients I've ever had, and I'm the one stuck with you.
+
+### beat 5 at 15 s: Wrap up with a callback to your best joke of the stream. Final verdict, and say bye in a way you haven't used yet.
+  (first line after 2359 ms)
+(low, sly, pleased with herself) Remember my hostage note with a steering wheel? Still my favorite.
+  avatar_express(smug) avatar_gesture(lean_in)
+(slow, mocking) And the five thousand dollar reservation? That's for the car that doesn't fly.
+  avatar_express(teasing)
+(slow, mocking) You paid to hold a spot for the ramp-jumper! Who does that?! You, apparently!
+  ...
+(slow, mocking) The flying one isn't approved for public roads. Production is "planned" for 2028. Planned. Like a diet.
+(slow, mocking) Verdict: the car is a ransom note that can't leave the parking lot, and you're all still reserving a seat.
+(slow, mocking) Okay, bye, you gullible little ramp-watchers. Go touch some grass. Try not to get hijacked on the way.
+
+### done, 19 s

@@ -1,0 +1,51 @@
+# Elon Musk's flying Tesla Roadster
+first audio ready 5.8 s after the start (not in the recording)
+
+
+## beat 1
+[00:00.6] (screaming, giddy) Chat, you're late, and I don't give a damn!
+[00:03.1] -- stall: 0.3 s of dead air, TTS not ready --
+[00:03.3] (screaming, giddy) Musk finally dragged his flying car out of the fucking fantasy closet.
+[00:07.7] -- stall: 0.4 s of dead air, TTS not ready --
+[00:08.0] (screaming, giddy) The one he promised back in twenty-seventeen, when he still had a normal haircut and a normal amount of shame.
+[00:14.2] (screaming, giddy) Nine years. Nine years of me being the only one who remembered it existed.
+[00:19.5] (gleeful, low, savoring it) And today I get to take it apart. Slowly. With commentary.
+[00:23.3] (gleeful, low, savoring it) Get in here, minions. Nobody's allowed to be impressed before I am.
+
+## beat 2
+[00:28.2] (seething, clipped) No. I'm not calm. I'm supervising my own rage.
+[00:32.5] (seething, clipped) Picture it. A guy in a black tee, leaning on a Roadster like it owes him rent, going, "Trust me, guys, it's gonna fly."
+[00:40.8] (seething, clipped) Trust him. Sure. Trust the man who names everything after a fart.
+[00:45.3] (seething, clipped) Then the SpaceX option package. Thrusters! On a car! Like a shopping cart that somehow got a rocket license and a dream.
+[00:53.6] (seething, clipped) And then Joe Rogan! "An unforgettable demo before the end of 2025!" Unforgettable. Yeah, it's unforgettable, all right. Unforgettable that it didn't fucking happen.
+[01:06.1] (flat, deadpan) It slipped into 2026. The car is later than you, chat. Congratulations. That takes real talent.
+
+## beat 3
+[01:14.2] (flat, dragging it out) Okay. Replay time. Hit play, minions.
+[01:17.5] (flat, dragging it out) So there's a ramp. A goddamn ramp.
+[01:20.2] (flat, dragging it out) The car rolls up it like a nervous dog at the vet, and I swear it regrets every single life choice.
+[01:26.3] (flat, dragging it out) Then it launches.
+[01:27.5] (flat, dragging it out) Hangs there for a few seconds, thrusters farting like a sad fucking balloon, and lands right back on its wheels like it's embarrassed it tried.
+[01:35.1] (flat, dragging it out) Nobody inside. Smart car. Even it didn't want to be there.
+[01:39.1] (deadpan) My diagnosis? Acute case of cardboard box syndrome. Fancy car, a ramp, one hop. That's not flying, that's a jump with a SpaceX bill.
+
+## beat 4
+[01:49.2] (lazy, sing-song Musk voice) Flyiiing cars are reeeal, guys.
+[01:51.5] () Success is not guaranteed. Which, honestly, is a bold way to sell me a six-figure car. And then he says it will probably work. Probably.
+[01:60.0] () Not "will work." Probably, like a dude promising his ex he's "basically sober."
+[02:05.3] (flat, appalled) And "not necessarily a safety-optimized car"? That's not a disclaimer, that's a confession with a bow on it. Who wrote this shit?
+[02:13.1] (flat, appalled) Zero to sixty in point-eight seconds, they say. Nobody's verified it. Nobody.
+[02:19.1] (flat, appalled) It's a number that exists purely because somebody in a meeting went, "Trust me, guys," and everyone nodded like their jobs depended on it.
+[02:26.1] (quiet, stunned) Worst sales pitch in human history. And people still fucking paid for it.
+
+## beat 5
+[02:31.4] (exhausted, low) Okay. Final verdict time, and I'm already tired.
+[02:35.2] (exhausted, low) You paid five grand to reserve the car that doesn't fly. Five grand!
+[02:39.4] (exhausted, low) For a ticket to a ride that's not even allowed on public roads, with production "planned" for 2028. Planned.
+[02:46.0] (exhausted, low) Like a dentist appointment you'll skip.
+[02:48.0] (deadpan, slow) So the verdict is simple. This isn't a car. It's a jump with a SpaceX bill, and you're the sucker holding the receipt.
+[02:55.4] (deadpan, slow) Hell, you're still the first ones to pre-order a boat that can't float.
+[02:59.0] (deadpan, slow) Alright, you wonderful idiot minions. Go hug a bill you can't afford. Peace out, meatbags.
+[03:05.6] (deadpan, slow) I'm going to go reread that replay, just to enjoy the silence on the ramp.
+
+length 03:09.9, 2 stall(s)

@@ -1,0 +1,94 @@
+
+### beat 1 at 0 s: Opening. Chat is late, as usual. Announce the topic: Musk finally showed his flying car, and you are thrilled, because you get to take it apart. Don't describe the demo yet, just tease it.
+  (first line after 3689 ms)
+(screaming, giddy) Chat, you're late, and I don't give a damn!
+  avatar_express(excited) avatar_gesture(bounce)
+(screaming, giddy) Musk finally dragged his flying car out of the fucking fantasy closet. The one he promised back in twenty-seventeen, when he still had a normal haircut and a normal amount of shame.
+(screaming, giddy) Nine years. Nine years of me being the only one who remembered it existed.
+(gleeful, low, savoring it) And today I get to take it apart. Slowly. With commentary.
+(gleeful, low, savoring it) Get in here, minions. Nobody's allowed to be impressed before I am.
+  -> colab: 2480 ms of audio in 2065 ms
+  -> colab: 4320 ms of audio in 3307 ms
+  -> colab: 6160 ms of audio in 4666 ms
+  -> colab: 5360 ms of audio in 4102 ms
+  -> colab: 3760 ms of audio in 2958 ms
+  -> colab: 4320 ms of audio in 3372 ms
+
+### beat 2 at 24 s: The waiting. Don't list the dates like a report. Pick the most ridiculous promise and act out how he made it. Build up irritation. Point to land: the car is later than chat, and that takes talent.
+  (first line after 3921 ms)
+(seething, clipped) No. I'm not calm. I'm supervising my own rage.
+  avatar_express(angry) avatar_gesture(shake)
+(seething, clipped) Picture it. A guy in a black tee, leaning on a Roadster like it owes him rent, going, "Trust me, guys, it's gonna fly." Trust him. Sure. Trust the man who names everything after a fart.
+(seething, clipped) Then the SpaceX option package. Thrusters! On a car! Like a shopping cart that somehow got a rocket license and a dream.
+(seething, clipped) And then Joe Rogan! "An unforgettable demo before the end of 2025!" Unforgettable. Yeah, it's unforgettable, all right. Unforgettable that it didn't fucking happen.
+    dropped: screaming
+  ...
+(flat, deadpan) It slipped into 2026. The car is later than you, chat. Congratulations. That takes real talent.
+  !laugh
+  -> colab: 4320 ms of audio in 3413 ms
+  -> colab: 8320 ms of audio in 6155 ms
+  -> colab: 4480 ms of audio in 3398 ms
+  -> colab: 8320 ms of audio in 6094 ms
+  -> colab: 11600 ms of audio in 8348 ms
+  -> colab: 7440 ms of audio in 5464 ms
+  /say 400: gesture must be one of nod, shake, tilt, look_away, bounce, startle, shiver, lean_in, sigh, sway
+
+### beat 3 at 61 s: The demo itself. Describe it like you're watching the replay right now, and give the car feelings. Point to land: that's not flying, that's a jump. Give your one diagnosis of the stream here.
+  (first line after 3418 ms)
+(flat, dragging it out) Okay. Replay time. Hit play, minions.
+  avatar_express(smug) avatar_gesture(tilt)
+(flat, dragging it out) So there's a ramp. A goddamn ramp. The car rolls up it like a nervous dog at the vet, and I swear it regrets every single life choice.
+(flat, dragging it out) Then it launches. Hangs there for a few seconds, thrusters farting like a sad fucking balloon, and lands right back on its wheels like it's embarrassed it tried.
+(flat, dragging it out) Nobody inside. Smart car. Even it didn't want to be there.
+(deadpan) My diagnosis? Acute case of cardboard box syndrome. Fancy car, a ramp, one hop. That's not flying, that's a jump with a SpaceX bill.
+  avatar_express(smug)
+  !laugh
+  -> colab: 3360 ms of audio in 2640 ms
+  -> colab: 2640 ms of audio in 2049 ms
+  -> colab: 6160 ms of audio in 4494 ms
+  -> colab: 1120 ms of audio in 1077 ms
+  -> colab: 7600 ms of audio in 5566 ms
+  -> colab: 4080 ms of audio in 3083 ms
+  -> colab: 9440 ms of audio in 6885 ms
+  /say 400: gesture must be one of nod, shake, tilt, look_away, bounce, startle, shiver, lean_in, sigh, sway
+
+### beat 4 at 90 s: His own words. Do his voice when you quote him, then react like a doctor reading the worst chart of her career. Point to land: worst sales pitch in history, and people still paid.
+  (first line after 1451 ms)
+(lazy, sing-song Musk voice) Flyiiing cars are reeeal, guys.
+  avatar_express(smug) avatar_gesture(sway)
+() Success is not guaranteed. Which, honestly, is a bold way to sell me a six-figure car. And then he says it will probably work. Probably. Not "will work." Probably, like a dude promising his ex he's "basically sober."
+(flat, appalled) And "not necessarily a safety-optimized car"? That's not a disclaimer, that's a confession with a bow on it. Who wrote this shit?
+  avatar_express(disgust)
+(flat, appalled) Zero to sixty in point-eight seconds, they say. Nobody's verified it. Nobody. It's a number that exists purely because somebody in a meeting went, "Trust me, guys," and everyone nodded like their jobs depended on it.
+(quiet, stunned) Worst sales pitch in human history. And people still fucking paid for it.
+  avatar_gesture(shake)
+  !laugh
+  -> colab: 2320 ms of audio in 1882 ms
+  -> colab: 8480 ms of audio in 6257 ms
+  -> colab: 5280 ms of audio in 3999 ms
+  -> colab: 7840 ms of audio in 5796 ms
+  -> colab: 6000 ms of audio in 4496 ms
+  -> colab: 7040 ms of audio in 5217 ms
+  -> colab: 4640 ms of audio in 3529 ms
+  /say 400: gesture must be one of nod, shake, tilt, look_away, bounce, startle, shiver, lean_in, sigh, sway
+
+### beat 5 at 123 s: Wrap up with a callback to your best joke of the stream. Final verdict, and say bye in a way you haven't used yet.
+  (first line after 1897 ms)
+(exhausted, low) Okay. Final verdict time, and I'm already tired.
+  avatar_express(angry) avatar_gesture(sigh)
+(exhausted, low) You paid five grand to reserve the car that doesn't fly. Five grand! For a ticket to a ride that's not even allowed on public roads, with production "planned" for 2028. Planned. Like a dentist appointment you'll skip.
+(deadpan, slow) So the verdict is simple. This isn't a car. It's a jump with a SpaceX bill, and you're the sucker holding the receipt.
+  avatar_express(smug) avatar_gesture(tilt)
+(deadpan, slow) Hell, you're still the first ones to pre-order a boat that can't float.
+(deadpan, slow) Alright, you wonderful idiot minions. Go hug a bill you can't afford. Peace out, meatbags. I'm going to go reread that replay, just to enjoy the silence on the ramp.
+  -> colab: 3840 ms of audio in 2985 ms
+  -> colab: 4160 ms of audio in 3172 ms
+  -> colab: 6640 ms of audio in 4897 ms
+  -> colab: 2000 ms of audio in 1650 ms
+  -> colab: 7360 ms of audio in 5388 ms
+  -> colab: 3600 ms of audio in 2762 ms
+  -> colab: 6640 ms of audio in 4931 ms
+  -> colab: 4240 ms of audio in 3232 ms
+
+### done, 154 s
+recorded 03:09.9, 2 stall(s) -> tests/recordings/flying-car-2026-11-231327.wav + .txt

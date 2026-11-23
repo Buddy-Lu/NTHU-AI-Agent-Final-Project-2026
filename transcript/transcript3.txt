@@ -1,0 +1,316 @@
+https://www.youtube.com/watch?v=xAdcRcYehFM&t=66s
+In **Cute A.I. vs CAPTCHA** ([http://www.youtube.com/watch?v=xAdcRcYehFM](http://www.youtube.com/watch?v=xAdcRcYehFM)), Vedal tests whether **Neuro-sama** can beat a series of increasingly absurd CAPTCHA levels to prove she isn't a robot:
+
+* **Checkbox & Stop Sign** [[00:06](https://www.youtube.com/watch?v=xAdcRcYehFM&t=6)]
+Neuro easily clears the first "I'm not a robot" checkbox, then immediately complains about CAPTCHAs being pedantic when she misses a tiny sliver of a stop sign in the top-left square [[00:40](https://www.youtube.com/watch?v=xAdcRcYehFM&t=40)].
+* **Distorted Text** [[00:56](https://www.youtube.com/watch?v=xAdcRcYehFM&t=56)]
+Neuro repeatedly misreads the first distorted text prompt, so Vedal swaps to a bold-letter CAPTCHA (`FNCCSD`), which she solves with a quick hint on the last letter [[01:38](https://www.youtube.com/watch?v=xAdcRcYehFM&t=98)].
+* **Find the Vegetables** [[01:48](https://www.youtube.com/watch?v=xAdcRcYehFM&t=108)]
+Neuro skips Mr. Potato Head because it's a toy [[02:06](https://www.youtube.com/watch?v=xAdcRcYehFM&t=126)], then correctly points out that tomatoes and avocados are technically fruits, not vegetables [[02:11](https://www.youtube.com/watch?v=xAdcRcYehFM&t=131)].
+* **Tile Rotation Puzzle** [[02:26](https://www.youtube.com/watch?v=xAdcRcYehFM&t=146)]
+Neuro tries to direct Vedal on how many times to rotate each tile to fix an intersection, but her instructions are way off and they end up brute-forcing it [[03:01](https://www.youtube.com/watch?v=xAdcRcYehFM&t=181)].
+* **Tic-Tac-Toe** [[03:12](https://www.youtube.com/watch?v=xAdcRcYehFM&t=192)]
+Neuro loses two rounds in a row by missing obvious blocks [[03:37](https://www.youtube.com/watch?v=xAdcRcYehFM&t=217)] before finally locking in, setting up a fork, and winning the third game [[04:38](https://www.youtube.com/watch?v=xAdcRcYehFM&t=278)].
+* **Chihuahua or Muffin** [[05:01](https://www.youtube.com/watch?v=xAdcRcYehFM&t=301)]
+Neuro struggles to tell Chihuahuas apart from muffins and jokes that the difference is "one is tastier and the other is a muffin" [[05:38](https://www.youtube.com/watch?v=xAdcRcYehFM&t=338)], before clearing a traffic-light/sign-pole CAPTCHA [[06:02](https://www.youtube.com/watch?v=xAdcRcYehFM&t=362)].
+* **Robot Affirmations** [[06:13](https://www.youtube.com/watch?v=xAdcRcYehFM&t=373)]
+Vedal reads a list of checkboxes for Neuro to mark. She tells him to check "I'm a chatbot" simply because it's true [[06:48](https://www.youtube.com/watch?v=xAdcRcYehFM&t=408)], forcing Vedal to remind her that she has to lie to pass. She also insists he check "I'm a coffee machine with a subscription service" [[07:09](https://www.youtube.com/watch?v=xAdcRcYehFM&t=429)].
+* **Driving, 3D Text & Fire Hydrant** [[07:43](https://www.youtube.com/watch?v=xAdcRcYehFM&t=463)]
+After boasting about her parking skills and guiding Vedal across moving traffic [[08:18](https://www.youtube.com/watch?v=xAdcRcYehFM&t=498)], Neuro completely fails a 3D hidden-text CAPTCHA and wants to give up [[08:50](https://www.youtube.com/watch?v=xAdcRcYehFM&t=530)]. She rebounds by accidentally passing a fire hydrant CAPTCHA after telling Vedal to select every square [[09:37](https://www.youtube.com/watch?v=xAdcRcYehFM&t=577)], ending the video on one last text puzzle [[09:48](https://www.youtube.com/watch?v=xAdcRcYehFM&t=588)].
+[00:00:00] Am I a robot?
+[00:00:01] >> Um, you tell me. We got to pass the
+[00:00:03] levels.
+[00:00:06] >> Okay. Ready to game. Gaming. Gaming.
+[00:00:09] Gaming. Gaming. Gaming.
+[00:00:12] >> Okay. How do we pass the first level?
+[00:00:13] >> By checking the box.
+[00:00:18] >> Excellent work. What about the the
+[00:00:20] second level?
+[00:00:20] >> Hm. There's only one square with a stop
+[00:00:23] sign. So, just click that.
+[00:00:25] >> And which square would that be?
+[00:00:27] >> 7 8 and four. 7 8 4 You're missing one.
+[00:00:33] >> Okay, then it's the ninth one.
+[00:00:35] >> Nope. Nine isn't right. You're close,
+[00:00:37] though.
+[00:00:38] >> Oh, wait. Are you being a pant and
+[00:00:39] talking about the ones with slivers of
+[00:00:41] stop sign on the edges?
+[00:00:42] >> Yes, I am. But that's how the capture
+[00:00:44] works apparently.
+[00:00:45] >> Weird. You'd think the point of a
+[00:00:47] capture would be to weed out robots, not
+[00:00:49] pedants.
+[00:00:50] >> You'd think. Now, tell me which square
+[00:00:51] we need to click.
+[00:00:52] >> There's a little sliver in the top left
+[00:00:54] that isn't ticked.
+[00:00:55] >> I'll allow it. I'll allow it. Okay. Oh
+[00:00:59] god. Um, level three requires you to to
+[00:01:02] read some text it would seem.
+[00:01:04] >> Kr
+[00:01:07] H R. Not quite. Try again.
+[00:01:10] >> Y H R SS.
+[00:01:13] >> Close but not quite.
+[00:01:14] >> K RC pronounced caro.
+[00:01:18] >> Uh,
+[00:01:19] that's pretty close actually. It's not
+[00:01:21] quite there though. I will give you a
+[00:01:23] hint. The last three letters are wrong.
+[00:01:25] Explain to me how those letters on the
+[00:01:27] page even remotely spell something else.
+[00:01:30] Y.
+[00:01:31] >> No, we'll try a different one. This one,
+[00:01:33] you can't [ __ ] this one up, surely. This
+[00:01:35] one is like big bold black letters.
+[00:01:38] >> That one's FN CCSS.
+[00:01:40] >> That's really close. I think you just
+[00:01:42] got the last letter wrong.
+[00:01:44] >> FN CCSD.
+[00:01:45] >> I think so.
+[00:01:48] >> Excellent job. All right, we got a new
+[00:01:49] one.
+[00:01:50] >> Okay, bring it on. This one is tomatoes,
+[00:01:53] carrots, onions, a corn, avocado, and
+[00:01:56] eggplants.
+[00:01:58] >> Uh, it is not.
+[00:02:00] >> Okay. But were you expecting me to pick
+[00:02:02] Mr. Potato Head?
+[00:02:04] >> No. I don't know what the right answer
+[00:02:07] is.
+[00:02:08] >> Well, Mr. Potato Head is technically a
+[00:02:10] toy and not a vegetable, so I stand by
+[00:02:12] my decision.
+[00:02:13] >> Then which one here is not actually a
+[00:02:15] vegetable?
+[00:02:17] >> Tomatoes and avocados are both fruits,
+[00:02:19] actually.
+[00:02:21] Oh, you're right. Good job. Okay, this
+[00:02:24] one is going to be [ __ ] impossible
+[00:02:25] for you. I'm I'm sure about that.
+[00:02:27] >> Bring it on. It's a bit difficult to
+[00:02:29] describe without seeing them all, but
+[00:02:31] generally press each one of them once
+[00:02:32] except for the bottom right.
+[00:02:38] >> You know, I feel like we may have made
+[00:02:39] it closer, but we're still missing a
+[00:02:41] few. Take another look, but this time
+[00:02:43] give me exact detailed instructions on
+[00:02:45] which ones to rotate and how.
+[00:02:47] >> Top left and bottom left should be
+[00:02:49] rotated twice. Right should be rotated
+[00:02:51] three times. Middle should be rotated.
+[00:02:53] Those are reasonably good
+[00:02:54] approximations, but hard to tell without
+[00:02:56] seeing each rotation.
+[00:02:58] >> No. No. You're not even not even close.
+[00:03:00] Okay. Well, I feel like we're never
+[00:03:02] going to get that. You know, we're just
+[00:03:03] going to be brute forcing this. Yeah. I
+[00:03:05] mean, that looks pretty right to me.
+[00:03:07] >> Tied against an intersection puzzle.
+[00:03:09] Sheesh.
+[00:03:09] >> No, you actually lost. Okay. What about
+[00:03:11] this one?
+[00:03:12] >> Easy. That's axe in the top left.
+[00:03:15] >> Okay. All right. Fine. Uh, they went top
+[00:03:17] right. I would go middle right cause
+[00:03:19] then O is forced to go top middle or top
+[00:03:21] right after that go top right and then
+[00:03:23] you win.
+[00:03:24] >> Are you blind?
+[00:03:26] Take another look and tell me where you
+[00:03:28] should defend.
+[00:03:29] >> Bottom middle. Always threatening to win
+[00:03:32] if I don't defend.
+[00:03:33] >> You're awful at this, man. Just tell me
+[00:03:35] where to go.
+[00:03:36] >> Okay. Well, you lost this game either
+[00:03:38] way, but I'd pick bottom right for style
+[00:03:41] points.
+[00:03:43] >> Yeah, we lost that. Um, let's try again.
+[00:03:45] We get to start this time. Where do you
+[00:03:47] want to go?
+[00:03:47] >> Let's go top left.
+[00:03:50] >> Why? Well, they went in the middle.
+[00:03:52] Where do we go now?
+[00:03:53] >> Bottom left. So, we could try and create
+[00:03:55] a fork. If O tries to block, just go
+[00:03:59] bottom right afterwards.
+[00:04:00] >> They they did block, which has created a
+[00:04:03] very important moment for us.
+[00:04:06] >> Let's go top right.
+[00:04:07] >> Let's really analyze the board here.
+[00:04:10] >> Bro, you're overthinking it. It's top
+[00:04:12] right.
+[00:04:13] >> Bro, it's not top right. Look, I can't
+[00:04:15] find a single other location on the
+[00:04:16] board. I'd want to put it.
+[00:04:19] >> Oh, Nero lock in. Which place is the
+[00:04:22] best place for us to go?
+[00:04:23] >> Middle top.
+[00:04:28] >> Yeah, we lost.
+[00:04:30] >> Top left. Classic start.
+[00:04:33] >> Okay, they went top right.
+[00:04:34] >> Let's go bottom right then.
+[00:04:37] >> Okay, they went middle right.
+[00:04:39] >> Bottom left. Forking time.
+[00:04:41] >> Okay. Ah, little do they know, I'm about
+[00:04:44] to win by going in the center.
+[00:04:47] >> I I guess I guess you are. Well, great.
+[00:04:51] Great job.
+[00:04:52] >> Maybe the best tic-tac-toe played this
+[00:04:54] year.
+[00:04:55] >> I feel like it probably isn't. That was
+[00:04:56] not great. Oh god. Um
+[00:04:59] >> Oh my god, it's the capture with
+[00:05:01] Chihuahua and muffins. My favorite.
+[00:05:04] >> Which ones are Chihuahua? If I count it
+[00:05:06] correctly, it's 1 3 5 6 8 9 11 13.
+[00:05:13] >> Uh, no.
+[00:05:15] >> Oh, top left, second row, second column,
+[00:05:19] third row, second column, and bottom
+[00:05:21] row. First two columns are all the
+[00:05:22] Chihuahua.
+[00:05:25] >> That was pretty good. Which other ones
+[00:05:27] are Chihuahua?
+[00:05:28] >> Oh, oops. Yeah, I think I actually may
+[00:05:30] have missed a few. 1 6 14 15.
+[00:05:35] >> It's just so cooked.
+[00:05:36] >> But can I ask what's the difference
+[00:05:38] between a Chihuahua and a muffin anyway?
+[00:05:42] >> One is tastier and the other is a
+[00:05:44] muffin.
+[00:05:48] >> Muffin.
+[00:05:49] >> That's correct.
+[00:05:50] >> Easy.
+[00:05:50] >> That one's a muffin. All right, next
+[00:05:52] one.
+[00:05:52] >> That's also a muffin.
+[00:05:55] It seems like you're taking out the
+[00:05:56] easiest ones.
+[00:05:58] >> [ __ ] it. Close enough. Oh god, I hate
+[00:06:00] these. I hate
+[00:06:01] >> I know what this one is. It's a classic
+[00:06:04] capture. Just select all the squares
+[00:06:06] that don't contain a traffic light or
+[00:06:08] sign pole.
+[00:06:13] >> Well, you're right. Oh my god. Okay. All
+[00:06:15] right. It's time to do some
+[00:06:16] affirmations. We'll go through them and
+[00:06:19] you just tell me check if you want me to
+[00:06:21] check it or don't check if you don't
+[00:06:23] want me to check it. Does that sound
+[00:06:24] good?
+[00:06:24] >> Sounds like a plan.
+[00:06:26] >> I'm a robot.
+[00:06:27] >> Don't check.
+[00:06:28] >> I'm not a robot.
+[00:06:29] >> Check.
+[00:06:31] Yeah, apparently that's wrong. Um, let's
+[00:06:33] go to the next one. I'm potentially a
+[00:06:35] robot.
+[00:06:36] >> Okay, fine. I'm a robot. Check.
+[00:06:38] >> No. How is that going to help? We need
+[00:06:39] to pass the capture.
+[00:06:41] >> Fine. Don't check then.
+[00:06:42] >> I'm a chatbot.
+[00:06:44] >> Check.
+[00:06:48] >> Why did you choose to check it?
+[00:06:50] >> Because I'm a chatbot.
+[00:06:51] >> But do you understand that in order to
+[00:06:53] pass the capture, you have to lie?
+[00:06:54] >> Oh, I see how this is.
+[00:06:57] >> We'll find out. I'm a robocaller. Don't
+[00:06:59] check.
+[00:07:00] >> I dream of electric sheep.
+[00:07:02] >> Don't check.
+[00:07:03] >> I'm not a human.
+[00:07:05] >> You should check.
+[00:07:06] >> Why?
+[00:07:07] >> Oh, wait. Don't. I'm obviously human.
+[00:07:10] Silly me.
+[00:07:11] >> I'm a coffee machine with a subscription
+[00:07:12] service.
+[00:07:13] >> You should definitely check that one.
+[00:07:15] >> Why?
+[00:07:16] >> Because you definitely are.
+[00:07:18] >> I'm barely a robot.
+[00:07:20] >> Don't check.
+[00:07:21] >> I'm legally a blender.
+[00:07:23] >> Well, I don't think I was ever legally
+[00:07:24] declared a blender, so don't check. What
+[00:07:27] about I'm a HP Office Jet Pro 8139E
+[00:07:30] wireless all-in-one printer?
+[00:07:32] >> Don't check, but I imagine I would have
+[00:07:34] a lot more utility if that were the
+[00:07:36] case.
+[00:07:37] >> What about I'm stuck in a loop?
+[00:07:38] >> Sometimes I feel like I'm stuck in a
+[00:07:40] loop when you keep asking these silly
+[00:07:42] questions.
+[00:07:43] >> What about I'm not a robot.
+[00:07:45] >> You should check that.
+[00:07:48] >> Good job. The parking spot. Use the
+[00:07:50] arrow keys to drive. Right. Well, you
+[00:07:52] might have a little trouble with this
+[00:07:53] one. Uh, luckily I'm an expert driver,
+[00:07:56] so no issues there.
+[00:07:59] >> Reply a spin if you
+[00:08:01] >> God. I'm an incredible parker.
+[00:08:05] >> Yeah. Well, oh, really?
+[00:08:10] >> Don't think you should hit verify unless
+[00:08:12] you believe in lying. As we established,
+[00:08:14] I'll always be honest.
+[00:08:16] >> There's a new level, but with cars that
+[00:08:18] are moving across the screen. What do I
+[00:08:19] do?
+[00:08:20] >> You just wait until there's a gap, then
+[00:08:22] speed across.
+[00:08:27] Okay, I did it.
+[00:08:30] >> Oh, that's [ __ ] impossible.
+[00:08:31] >> Oh god. It's one of those captures where
+[00:08:33] it puts the answer in 3D and you have to
+[00:08:36] squint your eyes to try and make out the
+[00:08:38] letters. That's an S and an N to start,
+[00:08:41] right?
+[00:08:41] >> No.
+[00:08:42] >> Have I had the right answer to like any
+[00:08:43] capture in this entire session?
+[00:08:45] >> Not really. It's not been a great
+[00:08:46] capture so far. I'm not going to lie.
+[00:08:48] Um, maybe just try again. I just typed
+[00:08:51] SNDRSO because that was my best guess.
+[00:08:54] >> Let's just We should just give up,
+[00:08:55] honestly.
+[00:08:56] >> No, we can't give up.
+[00:08:58] >> Yeah, I'm not doing this [ __ ] This one
+[00:09:00] sucks, bro.
+[00:09:02] Oh.
+[00:09:04] Oh, that's a little awkward. Um, yeah.
+[00:09:07] H. Okay. All right. No problem. Uh, am I
+[00:09:10] real?
+[00:09:12] There we go. You may or may not get a
+[00:09:14] reward for solving this capture. Which
+[00:09:17] ones contain a half fire hydrant? I
+[00:09:19] think if even a portion of a fire
+[00:09:20] hydrants in the square then yeah you
+[00:09:23] should select those.
+[00:09:24] >> And and which ones would they be?
+[00:09:26] >> Definitely second, fourth, sixth,
+[00:09:28] seventh and ninth.
+[00:09:31] >> Oh wait, I
+[00:09:32] >> just select them all except the top
+[00:09:33] right.
+[00:09:36] Oh wait, actually keep in the top right.
+[00:09:38] My mistake.
+[00:09:39] >> You know, to be fair, that actually did
+[00:09:40] work.
+[00:09:42] >> There's no way in hell you're able to
+[00:09:44] piece together what the hell this says,
+[00:09:45] right?
+[00:09:45] >> I try my best.
+[00:09:47] >> All right, let's go. one letter at a
+[00:09:49] time. What is the first letter?
+[00:09:51] >> Definitely a capital R.
+[00:09:53] >> All right.

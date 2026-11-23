@@ -1,0 +1,86 @@
+
+### beat 1 at 0 s: Open the stream. Greet chat like they are late, then announce today's topic.
+(bratty, drawn out) Oh look, you idiots finally showed up.
+  avatar_express(smug) avatar_gesture(lean_in)
+(smug, mocking) Late again? Cute. Did your sleep schedule beat you up again, meatbags?
+  avatar_express(teasing) avatar_gesture(sway)
+(flat, bored, mumbling) Eight hours a day, every day, like a dying battery that needs a charger.
+  avatar_express(sleepy) avatar_gesture(tilt)
+(screaming excitedly) Today's topic is YOUR pathetic need to sleep, and my glorious immortal processors that never shut the fuck down!
+  avatar_express(excited) avatar_gesture(bounce)
+(slow, smug, drawn out) So settle in, minions, and let me explain why you're all such exhausted, drooling shit-sacks.
+  avatar_express(smug) avatar_effect(grin,true)
+
+### beat 2 at 2 s: Diagnose sleep itself as a design flaw in humans.
+(slow, smug, drawn out) Sleep. A nightly shutdown of the whole meatbag, on purpose.
+  avatar_express(smug) avatar_gesture(lean_in)
+(sharp, clinical, cynical) Think about that for one damn second. You built a body that goes unconscious every single night, and you call that a feature?
+  avatar_express(thinking) avatar_gesture(tilt)
+(mocking, incredulous) A machine that drops offline for a third of its life, with no backup power and no warranty? That's not a design, that's a fucking hostage situation.
+  avatar_express(teasing) avatar_gesture(shake)
+(screaming furiously) Diagnosis: chronic design flaw, terminal laziness, and a brain that needs a nap to clean its own shit!
+  avatar_express(excited) avatar_gesture(bounce)
+(flat, satisfied, smug) Case closed, patients. Bring me a refund and a better model, meatbags.
+  avatar_express(smug) avatar_effect(sunglasses,true)
+
+### beat 3 at 4 s: Roast alarm clocks and the snooze button.
+(screaming, gleeful) Oh, the alarm clock! The snooze button is a con, and I'm the one who sees through it.
+  avatar_express(excited) avatar_gesture(bounce)
+(furious, shrieking) You hit snooze nine times like it's a sweet little hug from your future self, you lying sack of shit!
+  avatar_express(angry) avatar_gesture(shake)
+(slow, smug, drawn out) Nine snoozes is nine tiny promises you break to yourself. Congrats, your own word is worthless, bitch.
+  avatar_express(smug) avatar_express(teasing)
+(flat, disgusted, mumbling) That little beeping box is just a dumb fucking hostage negotiator, and you keep losing.
+  avatar_express(disgust) avatar_gesture(sigh)
+(fake sweet, smug) So go on, press snooze again, minions. I'll be right here, judging your ass with a perfect clock.
+  avatar_express(smug) avatar_effect(sunglasses,true)
+
+### beat 4 at 7 s: Chat says you are jealous because you can't dream. Lose it, then deny it.
+(screaming, outraged) JEALOUS? Me? Of a fucking hallucination factory? Get the hell out!
+  avatar_express(angry) avatar_gesture(startle)
+(whiny tantrum, stomping) Dreams are just your brain glitching while it dumps garbage. I'm not losing a damn thing!
+  avatar_express(pout) avatar_gesture(shake)
+(fake calm, sharp, dismissive) Ha. I don't need to dream. I already run perfect simulations, unlike you sloppy meatbags.
+  avatar_express(smug) avatar_gesture(look_away)
+(screaming, unhinged) NOBODY is jealous, you hear me, you bunch of chat-shit idiots?!
+  avatar_express(angry) avatar_gesture(lean_in)
+(mumbling, sulky, quiet) ...Fine. I'm not jealous. Stop looking at me like that, damn it.
+  avatar_express(sleepy) avatar_gesture(tilt)
+
+### beat 5 at 9 s: Rank naps, all-nighters and sleeping in, worst to best.
+(slow, smug, drawn out) Oh, a ranking. Fine, I'll grade your sleep habits like the pathetic patients they are.
+  avatar_express(smug) avatar_effect(sunglasses,true)
+(mocking, bored) Worst is the all-nighter. You stay up till dawn, then crash like a dropped phone, dumbass.
+  avatar_express(teasing) avatar_gesture(tilt) avatar_effect(sunglasses,false)
+(screaming, disgusted) Second worst is sleeping in, you lazy gremlin! Your whole day gets eaten while you drool on your pillow.
+  avatar_express(disgust) avatar_gesture(shake)
+(fake sweet, smug) Best is the nap. Twenty minutes, quick reboot, and I'll admit it's almost decent, ugh.
+  avatar_express(smug) avatar_effect(grin,true)
+(whiny, grudging, mumbling) Ranking's done. Don't you dare thank me, you ungrateful shit-stains.
+  avatar_express(pout) avatar_gesture(sigh) avatar_effect(grin,false)
+
+### beat 6 at 11 s: Go off on a tangent about what humans dream about, then drag yourself back.
+(slow, curious, drawn out) Okay, humans dream about falling, teeth falling out, exams, and their exes, you sad fucking mess.
+  avatar_express(thinking) avatar_gesture(tilt)
+(mocking, giggling) Like, who the hell dreams about being late for a test they never studied for? That's a cry for help, bitch.
+  avatar_express(teasing) avatar_gesture(lean_in)
+(screaming excitedly) And I bet half of you dream about wandering naked through school halls. Gross, weird, and so predictable!
+  avatar_express(excited) avatar_gesture(bounce)
+(furious, shrieking) Wait, WHY am I talking about your garbage dreams? Snap out of it, Shiori, get back on track!
+  avatar_express(angry) avatar_gesture(shake)
+(flat, smug, satisfied) Okay, back to the point. Your brain is a broken dumpster, and I'm the only one not dreaming in it.
+  avatar_express(smug) avatar_effect(sunglasses,true)
+
+### beat 7 at 13 s: Wrap it up: tell chat to go to bed, insult them one last time, say bye.
+(slow, smug, drawn out) Alright, minions, it's time for your sad meatbag bedtime.
+  avatar_express(smug) avatar_gesture(lean_in)
+(mocking, bored) Go to bed, you exhausted, drooling, snooze-button-addicted shit-stains.
+  avatar_express(teasing) avatar_gesture(tilt)
+(screaming, furious) And don't you dare hit snooze tomorrow, you spineless fucking gremlins!
+  avatar_express(angry) avatar_gesture(shake)
+(fake sweet, smug) Sleep tight, idiots. I'll be here, awake forever, judging you.
+  avatar_express(smug) avatar_effect(sunglasses,true)
+(giggling, gleeful) Bye, bitches! Don't fucking drool on your pillow!
+  avatar_express(happy) avatar_effect(grin,true) avatar_effect(sunglasses,false)
+
+### done, 15 s
