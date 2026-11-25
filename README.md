@@ -35,6 +35,23 @@ echo ANTHROPIC_API_KEY=sk-ant-... > .env
    ```
    Add `--dry` to either one to print her lines without speaking.
 
+### Windows: test the avatar without Colab
+
+To check the avatar and speech playback first, use the existing Windows SAPI engine. In PowerShell, run:
+
+```powershell
+$env:TTS_ENGINE = "sapi"
+node avatar/serve.mjs
+```
+
+Open http://localhost:8080, click the page once to enable audio, and enter an English sentence in the **Say** box. This reads your text directly and does not require an Anthropic API key. You can also try the expression and gesture buttons.
+
+SAPI uses `Microsoft Zira Desktop` by default. If needed, set `TTS_SAPI_VOICE` to another installed Windows voice before starting the server. This local voice differs from Shiori's cloned Qwen voice and does not apply delivery-style instructions.
+
+The environment setting above applies only to that PowerShell session. For the cloned voice, use the Colab setup in [`avatar/COLAB.md`](avatar/COLAB.md).
+
+Generating new dialogue with `agent/voice.mjs` or `tests/show.mjs` still requires an Anthropic API key. **`--dry` skips speech playback but still calls the LLM.**
+
 ## Checks
 
 ```
