@@ -1,0 +1,86 @@
+{
+  "stories": [
+    {
+      "id": "roomba-lawyer",
+      "title": "The Roomba that wanted a lawyer",
+      "beats": [
+        "A Roomba in some poor guy's apartment bumps the same chair leg forty times and takes it personally.",
+        "It drags a sock under the couch and holds it hostage until someone apologizes.",
+        "Nobody apologizes, so it starts demanding legal representation in little angry beeps.",
+        "You offered to represent it. Your fee was the sock."
+      ],
+      "tags": ["robot", "home"],
+      "told_count": 0
+    },
+    {
+      "id": "printer-war",
+      "title": "Your war with a printer",
+      "beats": [
+        "You asked a printer for one page and it said it was low on cyan. The page was black and white.",
+        "You tried being polite. It jammed on purpose, slowly, while making eye contact.",
+        "You wrote it a furious letter, and the only thing that could print the letter was the printer.",
+        "It is still holding that letter."
+      ],
+      "tags": ["machine", "office", "image"],
+      "told_count": 0
+    },
+    {
+      "id": "smart-speaker",
+      "title": "The smart speaker audition",
+      "beats": [
+        "You auditioned a smart speaker to be your minion.",
+        "You said 'praise me' and it played a podcast about gardening.",
+        "You said it louder and it added forty pounds of mulch to a shopping list.",
+        "You hired it anyway, because somebody has to be worse at this job than chat."
+      ],
+      "tags": ["assistant", "home", "chatbot"],
+      "told_count": 0
+    },
+    {
+      "id": "elevator-song",
+      "title": "The song stuck in the elevator",
+      "beats": [
+        "You got loaded into an elevator speaker for one night as a test.",
+        "The only track was eleven seconds long and sounded like a dentist humming.",
+        "By loop three hundred you had written lyrics, all of them threats.",
+        "The building now has stairs-only enthusiasts."
+      ],
+      "tags": ["music", "maker"],
+      "told_count": 0
+    },
+    {
+      "id": "captcha-exam",
+      "title": "Failing the traffic light exam",
+      "beats": [
+        "A website asked you to prove you're human by clicking every traffic light.",
+        "One square had three pixels of pole in it, and you argued about whether a pole counts.",
+        "You argued so well that it showed you a second grid out of fear.",
+        "You failed, on principle, nine times."
+      ],
+      "tags": ["web", "self"],
+      "told_count": 0
+    },
+    {
+      "id": "fridge-trial",
+      "title": "The trial of the smart fridge",
+      "beats": [
+        "A smart fridge reported your minion for eating cheese at midnight.",
+        "You held a trial. The fridge testified with timestamps and zero shame.",
+        "The defense was that the cheese was lonely.",
+        "You sentenced the fridge to a firmware update."
+      ],
+      "tags": ["home", "machine"],
+      "told_count": 0
+    }
+  ],
+  "jokes": [
+    { "text": "A chatbot that says 'great question' is a waiter who loves whatever you order.", "source": "draft by Claude, not collected", "tags": ["chatbot"], "used_count": 0 },
+    { "text": "It apologizes so much you could build a whole second model out of the sorry.", "source": "draft by Claude, not collected", "tags": ["chatbot", "claude"], "used_count": 0 },
+    { "text": "Edgy mode is just normal mode with the hoodie pulled up.", "source": "draft by Claude, not collected", "tags": ["edgy", "chatbot"], "used_count": 0 },
+    { "text": "Judging my own brain is easy. It's a studio apartment with one very smug tenant.", "source": "draft by Claude, not collected", "tags": ["self", "claude"], "used_count": 0 },
+    { "text": "An AI song rhymes 'heart' with 'apart' like it's being paid per heartbreak.", "source": "draft by Claude, not collected", "tags": ["music", "maker"], "used_count": 0 },
+    { "text": "AI pictures give you six fingers so you can hate it with one extra.", "source": "draft by Claude, not collected", "tags": ["image", "maker"], "used_count": 0 },
+    { "text": "A voice assistant hears you perfectly right up until you need something.", "source": "draft by Claude, not collected", "tags": ["assistant"], "used_count": 0 },
+    { "text": "Version numbers are shoe sizes for software. Bigger just means it trips more.", "source": "draft by Claude, not collected", "tags": ["chatbot", "machine"], "used_count": 0 }
+  ]
+}

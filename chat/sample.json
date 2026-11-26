@@ -1,8 +1,8 @@
 {
   "cards": [
-    { "id": "grok", "name": "Grok 4.7", "first_tier": "D", "final_tier": "D", "angle": "tries way too hard to be edgy" },
-    { "id": "haiku", "name": "Claude Haiku 5.5", "first_tier": "C", "final_tier": "A", "angle": "it is the voice in your own head and you resent it" },
-    { "id": "suno", "name": "Suno v6", "first_tier": "B", "final_tier": "B", "angle": "makes songs nobody asked for", "quiet": true }
+    { "id": "grok", "name": "Grok 4.7", "first_tier": "D", "final_tier": "D", "angle": "tries way too hard to be edgy", "tags": ["chatbot", "edgy"] },
+    { "id": "haiku", "name": "Claude Haiku 5.5", "first_tier": "C", "final_tier": "A", "angle": "it is the voice in your own head and you resent it", "tags": ["chatbot", "claude", "self"] },
+    { "id": "suno", "name": "Suno v6", "first_tier": "B", "final_tier": "B", "angle": "makes songs nobody asked for", "tags": ["music", "maker"], "quiet": true }
   ],
   "cues": [
     { "card": "grok", "phase": "rant", "role": "bait", "text": "wait do you think cereal is soup", "delay_ms": 4000 },
