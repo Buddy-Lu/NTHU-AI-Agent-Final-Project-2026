@@ -3,6 +3,7 @@
 //   (same command/env as Claude Code's, from ~/.claude.json). Run the notebook's `# shiori-tts setup` cell first.
 //   Voice: QWEN_VOICE (shiori, the default | a_bright | b_soft | c_energetic | Sohee | Vivian | Serena | Ono_anna). Falls back to SAPI per line.
 // TTS_ENGINE=sapi: Windows built-in voice through PowerShell. Robotic, offline.
+// TTS_ENGINE=mac: macOS built-in `say` voice (MAC_VOICE, default Samantha). Robotic, offline.
 // TTS_ENGINE=edge: Edge read-aloud voice via npm msedge-tts. Opt-in only.
 import { execFile, spawn } from 'node:child_process';
 import { readFile, rm } from 'node:fs/promises';
@@ -42,6 +43,21 @@ function sapiSynth(text) {
       const byteRate = body.readUInt32LE(28);
       resolve({ body, type: 'audio/wav', ms: Math.round((body.length - 44) / byteRate * 1000) });
     }));
+}
+
+// macOS built-in `say` -> 16-bit WAV via afconvert. Voice: MAC_VOICE (default Samantha). Text goes after `--` so it can't be read as a flag.
+function macSynth(text) {
+  const base = join(tmpdir(), `shiori-${randomUUID()}`);
+  const run = (cmd, args) => new Promise((res, rej) => execFile(cmd, args, err => err ? rej(err) : res()));
+  return (async () => {
+    try {
+      await run('say', ['-v', process.env.MAC_VOICE || 'Samantha', '-o', `${base}.aiff`, '--', text]);
+      await run('afconvert', ['-f', 'WAVE', '-d', 'LEI16', `${base}.aiff`, `${base}.wav`]);
+      const body = await readFile(`${base}.wav`);
+      const dataAt = body.indexOf('data') + 8;   // WAV header ends after the "data" chunk size
+      return { body, type: 'audio/wav', ms: Math.round((body.length - dataAt) / body.readUInt32LE(28) * 1000) };
+    } finally { rm(`${base}.aiff`, { force: true }).catch(() => {}); rm(`${base}.wav`, { force: true }).catch(() => {}); }
+  })();
 }
 
 // ---- colab: minimal MCP stdio client (newline-delimited JSON-RPC) ----
@@ -139,6 +155,7 @@ export async function synth(text, style = '', voice = '') {
     try { return await colabSynth(text, style, voice); }
     catch (e) { console.warn(`tts: Colab failed (${e.message}), using Windows SAPI for this line`); return sapiSynth(text); }
   }
+  if (engine === 'mac') return macSynth(text);
   if (engine === 'edge') {
     try { return await edgeSynth(text); }
     catch (e) {
