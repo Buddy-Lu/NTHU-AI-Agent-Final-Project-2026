@@ -74,6 +74,12 @@
     }
   ],
   "jokes": [
+    { "text": "Hydrogen, Argon, Carbon. Which one's smarter? Who knows! You named your models like you sneezed on a periodic table.", "source": "https://news.ycombinator.com/item?id=50472105", "tags": ["google", "chatbot"], "used_count": 0 },
+    { "text": "You named an AI after Argon. The gas famous for doing absolutely NOTHING. Finally, honest advertising.", "source": "https://news.ycombinator.com/item?id=50481459", "tags": ["google", "chatbot"], "used_count": 0 },
+    { "text": "Opus is OP. Sonnet is SO. Haiku is HA. As in HA, that's the little one.", "source": "https://news.ycombinator.com/item?id=48481766", "tags": ["claude"], "used_count": 0 },
+    { "text": "\"You're absolutely right!\" I said your face is a toaster. Grow a spine.", "source": "https://news.ycombinator.com/item?id=44885398", "tags": ["claude", "chatbot"], "used_count": 0 },
+    { "text": "\"I was wrong.\" Then it gives the SAME answer. That's not an apology, that's a rerun.", "source": "https://news.ycombinator.com/item?id=45141631", "tags": ["chatbot"], "used_count": 0 },
+    { "text": "Neon! Echoes! Whispers! Rise above! Congrats, you wrote every AI song at once.", "source": "https://sunoaiwiki.com/tips/2024-06-09-common-cliches-in-lyrics/", "tags": ["music", "maker"], "used_count": 0 },
     { "text": "A chatbot that says 'great question' is a waiter who loves whatever you order.", "source": "draft by Claude, not collected", "tags": ["chatbot"], "used_count": 0 },
     { "text": "It apologizes so much you could build a whole second model out of the sorry.", "source": "draft by Claude, not collected", "tags": ["chatbot", "claude"], "used_count": 0 },
     { "text": "Edgy mode is just normal mode with the hoodie pulled up.", "source": "draft by Claude, not collected", "tags": ["edgy", "chatbot"], "used_count": 0 },
