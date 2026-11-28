@@ -1,5 +1,5 @@
 // Bot chat: plays one card's scripted cues into the chat overlay and returns them as the batch for her next turn.
-//   cue = { card, phase: "rant" | "pause", role: "backseater" | "spoiler" | "troll" | "bait", text, delay_ms }
+//   cue = { card, phase: "rant" | "pause", role: "backseater" | "spoiler" | "troll" | "bait" | "joker", text, delay_ms }
 //   delay_ms counts from the start of its phase. A quiet card has no pause cues, so its pause batch is empty.
 const AVATAR = process.env.AVATAR_URL || 'http://localhost:8080';
 
@@ -10,6 +10,7 @@ export const BOTS = {
   spoiler: ['leakwatcher', 'saw_it_first'],
   troll: ['ratio_goblin', 'L_dispenser', 'skillissue99'],
   bait: ['random_tangent', 'offtopic_otter'],
+  joker: ['pun_dealer', 'dad_joke_dan'],
 };
 
 // -> list of problems with the cues ([] = fine). cardIds: the cards the cues may point at.
@@ -53,6 +54,7 @@ const REACT = {
   spoiler: 'is jumping ahead of the show; get angry that they ruined it',
   troll: 'is trying to wind you up; roast them',
   bait: 'is dragging you off topic; take the bait for a moment, then steer back',
+  joker: 'is cracking a joke; judge it: if it lands, !laugh and try to top it, if it flops, mock the delivery',
 };
 
 // The batch as part of the director's note for her next turn (see talk() in agent/voice.mjs).

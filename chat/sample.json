@@ -8,6 +8,7 @@
     { "card": "grok", "phase": "rant", "role": "bait", "text": "wait do you think cereal is soup", "delay_ms": 4000 },
     { "card": "grok", "phase": "pause", "role": "backseater", "text": "that's clearly a B, you didn't even try it", "delay_ms": 800 },
     { "card": "grok", "phase": "pause", "role": "troll", "text": "grok is funnier than you btw", "delay_ms": 2500 },
+    { "card": "grok", "phase": "pause", "role": "joker", "text": "grok walks into a bar. the bar asks it to stop trying so hard", "delay_ms": 4200 },
 
     { "card": "haiku", "phase": "pause", "role": "backseater", "text": "C?? it literally writes your lines", "delay_ms": 600 },
     { "card": "haiku", "phase": "pause", "role": "troll", "text": "bro is ranking her own brain low", "delay_ms": 1800 },
