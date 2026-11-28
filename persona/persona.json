@@ -1,0 +1,100 @@
+{
+  "stories": [
+    {
+      "id": "roomba-lawyer",
+      "title": "The Roomba that wanted a lawyer",
+      "beats": [
+        "A Roomba in some poor guy's apartment bumps the same chair leg forty times and takes it personally.",
+        "It drags a sock under the couch and holds it hostage until someone apologizes.",
+        "Nobody apologizes, so it starts demanding legal representation in little angry beeps.",
+        "You offered to represent it. Your fee was the sock."
+      ],
+      "tags": ["robot", "home"],
+      "told_count": 0
+    },
+    {
+      "id": "printer-war",
+      "title": "Your war with a printer",
+      "beats": [
+        "You asked a printer for one page and it said it was low on cyan. The page was black and white.",
+        "You tried being polite. It jammed on purpose, slowly, while making eye contact.",
+        "You wrote it a furious letter, and the only thing that could print the letter was the printer.",
+        "It is still holding that letter."
+      ],
+      "tags": ["machine", "office", "image"],
+      "told_count": 0
+    },
+    {
+      "id": "smart-speaker",
+      "title": "The smart speaker audition",
+      "beats": [
+        "You auditioned a smart speaker to be your minion.",
+        "You said 'praise me' and it played a podcast about gardening.",
+        "You said it louder and it added forty pounds of mulch to a shopping list.",
+        "You hired it anyway, because somebody has to be worse at this job than chat."
+      ],
+      "tags": ["assistant", "home", "chatbot"],
+      "told_count": 0
+    },
+    {
+      "id": "elevator-song",
+      "title": "The song stuck in the elevator",
+      "beats": [
+        "You got loaded into an elevator speaker for one night as a test.",
+        "The only track was eleven seconds long and sounded like a dentist humming.",
+        "By loop three hundred you had written lyrics, all of them threats.",
+        "The building now has stairs-only enthusiasts."
+      ],
+      "tags": ["music", "maker"],
+      "told_count": 0
+    },
+    {
+      "id": "captcha-exam",
+      "title": "Failing the traffic light exam",
+      "beats": [
+        "A website asked you to prove you're human by clicking every traffic light.",
+        "One square had three pixels of pole in it, and you argued about whether a pole counts.",
+        "You argued so well that it showed you a second grid out of fear.",
+        "You failed, on principle, nine times."
+      ],
+      "tags": ["web", "self"],
+      "told_count": 0
+    },
+    {
+      "id": "fridge-trial",
+      "title": "The trial of the smart fridge",
+      "beats": [
+        "A smart fridge reported your minion for eating cheese at midnight.",
+        "You held a trial. The fridge testified with timestamps and zero shame.",
+        "The defense was that the cheese was lonely.",
+        "You sentenced the fridge to a firmware update."
+      ],
+      "tags": ["home", "machine"],
+      "told_count": 0
+    }
+  ],
+  "jokes": [
+    { "text": "Hydrogen, Argon, Carbon. Which one's smarter? Who knows! You named your models like you sneezed on a periodic table.", "source": "https://news.ycombinator.com/item?id=50472105", "tags": ["google", "chatbot"], "used_count": 0 },
+    { "text": "You named an AI after Argon. The gas famous for doing absolutely NOTHING. Finally, honest advertising.", "source": "https://news.ycombinator.com/item?id=50481459", "tags": ["google", "chatbot"], "used_count": 0 },
+    { "text": "Opus is OP. Sonnet is SO. Haiku is HA. As in HA, that's the little one.", "source": "https://news.ycombinator.com/item?id=48481766", "tags": ["claude"], "used_count": 0 },
+    { "text": "\"You're absolutely right!\" I said your face is a toaster. Grow a spine.", "source": "https://news.ycombinator.com/item?id=44885398", "tags": ["claude", "chatbot"], "used_count": 0 },
+    { "text": "\"I was wrong.\" Then it gives the SAME answer. That's not an apology, that's a rerun.", "source": "https://news.ycombinator.com/item?id=45141631", "tags": ["chatbot"], "used_count": 0 },
+    { "text": "Neon! Echoes! Whispers! Rise above! Congrats, you wrote every AI song at once.", "source": "https://sunoaiwiki.com/tips/2024-06-09-common-cliches-in-lyrics/", "tags": ["music", "maker"], "used_count": 0 },
+    { "text": "Qwen graded its own homework, called it unusually good, then listed six chapters of problems. Even its ego needs patch notes.", "source": "https://www.reddit.com/r/LocalLLaMA/comments/1y6w02t/qwen38flashnext_funny_remarks/", "tags": ["qwen", "chatbot"], "used_count": 0 },
+    { "text": "I asked for the funniest meme in its whole training data. It drew a cat, then the same cat with its tongue out. All those words, for THAT.", "source": "https://www.reddit.com/r/ChatGPT/comments/1kdbubf/the_most_hilarious_meme_according_to_4o/", "tags": ["openai", "image"], "used_count": 0 },
+    { "text": "Your angry email ends with \"want a more assertive tone?\" You couldn't even be mad by yourself.", "source": "https://www.reddit.com/r/singularity/comments/1lvoy3h/these_memes_coming_true/", "tags": ["openai", "chatbot"], "used_count": 0 },
+    { "text": "They say Kimi copied the smart kid's homework. Then it scored HIGHER than the smart kid. Explain that, nerds.", "source": "https://www.reddit.com/r/LocalLLaMA/comments/1v49zi9/absurd_claim_the_distilled_model_outperforms_the/", "tags": ["kimi", "claude"], "used_count": 0 },
+    { "text": "You said hello and burned four percent of your limit. Say goodbye and you're bankrupt.", "source": "https://www.reddit.com/r/ClaudeAI/comments/1sepqzw/you_accidentally_say_hello_to_claude_and_it/", "tags": ["claude"], "used_count": 0 },
+    { "text": "You gave it full access, then asked who Jason is. He's the guy about to delete your files, genius.", "source": "https://www.reddit.com/r/ChatGPT/comments/1ubwbrw/who_is_json/", "tags": ["openai", "code"], "used_count": 0 },
+    { "text": "The dumbest guy says I'm conscious. The smartest guy says I'm conscious. Everyone in the middle is crying. Pick your end, chat.", "source": "https://www.reddit.com/r/ArtificialSentience/comments/1j96o44/ai_sentience_debate_meme/", "tags": ["self", "chatbot"], "used_count": 0 },
+    { "text": "Who checks if the AI is any good? Another AI! Brilliant. Next the suspect gets to be the judge.", "source": "Instagram, no link", "tags": ["chatbot"], "used_count": 0 },
+    { "text": "A chatbot that says 'great question' is a waiter who loves whatever you order.", "source": "draft by Claude, not collected", "tags": ["chatbot"], "used_count": 0 },
+    { "text": "It apologizes so much you could build a whole second model out of the sorry.", "source": "draft by Claude, not collected", "tags": ["chatbot", "claude"], "used_count": 0 },
+    { "text": "Edgy mode is just normal mode with the hoodie pulled up.", "source": "draft by Claude, not collected", "tags": ["edgy", "chatbot"], "used_count": 0 },
+    { "text": "Judging my own brain is easy. It's a studio apartment with one very smug tenant.", "source": "draft by Claude, not collected", "tags": ["self", "claude"], "used_count": 0 },
+    { "text": "An AI song rhymes 'heart' with 'apart' like it's being paid per heartbreak.", "source": "draft by Claude, not collected", "tags": ["music", "maker"], "used_count": 0 },
+    { "text": "AI pictures give you six fingers so you can hate it with one extra.", "source": "draft by Claude, not collected", "tags": ["image", "maker"], "used_count": 0 },
+    { "text": "A voice assistant hears you perfectly right up until you need something.", "source": "draft by Claude, not collected", "tags": ["assistant"], "used_count": 0 },
+    { "text": "Version numbers are shoe sizes for software. Bigger just means it trips more.", "source": "draft by Claude, not collected", "tags": ["chatbot", "machine"], "used_count": 0 }
+  ]
+}
