@@ -8,6 +8,8 @@
 //                    "pause_ms": silence on the page before this clip starts (after the previous one ends).
 //   GET  /audio/:id -> the synthesized clip
 //   GET  /events  -> Server-Sent Events stream the avatar page listens on
+//   POST /chat    -> {"user": "...", "text": "..."}: show one chat message on the overlay (chat.html)
+//   GET  /chat-events -> Server-Sent Events stream the chat overlay listens on
 import { createServer } from 'node:http';
 import { readFile, readdir } from 'node:fs/promises';
 import { extname, join, normalize } from 'node:path';
@@ -18,6 +20,7 @@ const root = import.meta.dirname;
 const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.mjs': 'text/javascript', '.json': 'application/json', '.png': 'image/png', '.moc3': 'application/octet-stream' };
 const port = process.env.PORT || 8080;
 const pages = new Set();
+const chatPages = new Set();
 
 const clips = new Map();   // id -> { body, type, ms }, dropped after 2 min
 let nextId = 1;
@@ -49,6 +52,23 @@ createServer(async (req, res) => {
     pages.add(res);
     req.on('close', () => pages.delete(res));
     return;
+  }
+  if (url.pathname === '/chat-events') {
+    res.writeHead(200, { 'Content-Type': 'text/event-stream', 'Cache-Control': 'no-cache', Connection: 'keep-alive' });
+    res.write(': connected\n\n');
+    chatPages.add(res);
+    req.on('close', () => chatPages.delete(res));
+    return;
+  }
+  if (url.pathname === '/chat') {
+    if (req.method !== 'POST') return json(res, 405, { error: 'POST only' });
+    let body;
+    try { body = await readBody(req); } catch { return json(res, 400, { error: 'invalid JSON' }); }
+    const { user, text } = body ?? {};
+    if (typeof user !== 'string' || !user || user.length > 25) return json(res, 400, { error: 'user must be 1-25 chars' });
+    if (typeof text !== 'string' || !text || text.length > 200) return json(res, 400, { error: 'text must be 1-200 chars' });
+    for (const p of chatPages) p.write(`data: ${JSON.stringify({ user, text })}\n\n`);
+    return json(res, 200, { ok: true, pages: chatPages.size });
   }
   if (url.pathname === '/tools') return json(res, 200, TOOLS);
   if (url.pathname === '/cmd') {
